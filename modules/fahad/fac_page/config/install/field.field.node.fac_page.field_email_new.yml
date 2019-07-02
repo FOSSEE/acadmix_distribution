@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_email_new
+    - node.type.fac_page
+  enforced:
+    module:
+      - fac_page
+id: node.fac_page.field_email_new
+field_name: field_email_new
+entity_type: node
+bundle: fac_page
+label: Email
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: email

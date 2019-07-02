@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_facility_
+    - node.type.facility
+  module:
+    - link
+  enforced:
+    module:
+      - facility
+id: node.facility.field_facility_
+field_name: field_facility_
+entity_type: node
+bundle: facility
+label: 'facility link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

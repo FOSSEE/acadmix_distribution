@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_courses_taught
+    - node.type.fac_page
+  enforced:
+    module:
+      - fac_page
+  module:
+    - text
+id: node.fac_page.field_courses_taught
+field_name: field_courses_taught
+entity_type: node
+bundle: fac_page
+label: 'Courses Taught'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

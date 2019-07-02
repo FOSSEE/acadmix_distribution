@@ -1,0 +1,61 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.notification.body
+    - field.field.node.notification.field_notification_date
+    - field.field.node.notification.field_notification_file
+    - field.field.node.notification.field_notitfication_category
+    - node.type.notification
+  module:
+    - datetime
+    - file
+    - text
+    - user
+  enforced:
+    module:
+      - notification
+id: node.notification.default
+targetEntityType: node
+bundle: notification
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_notification_date:
+    weight: 104
+    label: hidden
+    settings:
+      format_type: medium
+      timezone_override: ''
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_notification_file:
+    weight: 102
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  field_notitfication_category:
+    weight: 103
+    label: hidden
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

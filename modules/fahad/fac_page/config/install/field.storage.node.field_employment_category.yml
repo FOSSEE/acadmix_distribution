@@ -1,0 +1,25 @@
+uuid: 0a1c90bd-7d18-4c8f-b0a5-c3c9b85d0d72
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - fac_page
+  module:
+    - node
+    - taxonomy
+_core:
+  default_config_hash: 4nCv0C0XEvZy6LNfY10emV5Z02DbCNuxXru5Tqv1lzo
+id: node.field_employment_category
+field_name: field_employment_category
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

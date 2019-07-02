@@ -1,0 +1,14 @@
+{
+  "name": "drupal/bog_meetings",
+  "type": "drupal-module",
+  "description": "Bog Meetings",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/bog_meetings",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/bog_meetings",
+    "source": "http://cgit.drupalcode.org/bog_meetings"
+  },
+  "require": { }
+}

@@ -1,0 +1,14 @@
+name: 'festivals'
+type: module
+description: 'My Awesome Module'
+core: 8.x
+package: 'Custom'
+dependencies:
+  - drupal:text
+  - drupal:path
+  - drupal:user
+  - drupal:node
+  - drupal:menu_ui
+  - drupal:image
+  - drupal:file
+  - drupal:link

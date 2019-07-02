@@ -1,0 +1,24 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.industry_partners
+  module:
+    - text
+  enforced:
+    module:
+      - industry_partners
+id: node.industry_partners.body
+field_name: body
+entity_type: node
+bundle: industry_partners
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

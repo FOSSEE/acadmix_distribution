@@ -1,0 +1,25 @@
+uuid: daf9a7e7-e4e4-452c-9c9d-dd5e604551da
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - fac_page
+  module:
+    - node
+    - text
+_core:
+  default_config_hash: ZK7uwxG0_z1tTD5q0QUyNzDy2cXVyJtj0fugjSAyX6I
+id: node.field_phone_no_new
+field_name: field_phone_no_new
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains festivals.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function festivals_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the festivals module.
+    case 'help.page.festivals':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function festivals_theme() {
+  return [
+    'festivals' => [
+      'render element' => 'children',
+    ],
+  ];
+}

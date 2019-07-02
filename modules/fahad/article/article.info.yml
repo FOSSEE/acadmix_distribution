@@ -1,0 +1,16 @@
+name: 'article'
+type: module
+description: 'My Awesome Module'
+core: 8.x
+package: 'Custom'
+dependencies:
+    - drupal:comment
+    - drupal:image
+    - drupal:link
+    - drupal:path
+    - drupal:text
+    - drupal:user
+    - drupal:node
+    - drupal:taxonomy
+    
+    

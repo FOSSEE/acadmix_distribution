@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_student_volunteer
+    - node.type.clubs
+  module:
+    - text
+  enforced:
+    module:
+      - clubs
+id: node.clubs.field_student_volunteer
+field_name: field_student_volunteer
+entity_type: node
+bundle: clubs
+label: student_volunteer
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

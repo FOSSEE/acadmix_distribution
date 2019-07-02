@@ -1,0 +1,14 @@
+{
+  "name": "drupal/industry_partners",
+  "type": "drupal-module",
+  "description": "My Awesome Module",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/industry_partners",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/industry_partners",
+    "source": "http://cgit.drupalcode.org/industry_partners"
+  },
+  "require": { }
+}

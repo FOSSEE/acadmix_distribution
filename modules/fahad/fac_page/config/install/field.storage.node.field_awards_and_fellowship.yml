@@ -1,0 +1,24 @@
+uuid: a34567d0-47a3-4118-bc4a-e9cbbbf8d4f7
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - fac_page
+  module:
+    - node
+    - text
+_core:
+  default_config_hash: D6X6nBMj1l7Ge-_rRN4zWqbuSQck6aDu9LCoBe9SnbI
+id: node.field_awards_and_fellowship
+field_name: field_awards_and_fellowship
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

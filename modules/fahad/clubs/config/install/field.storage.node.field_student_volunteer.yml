@@ -1,0 +1,23 @@
+uuid: df0a956d-fbe0-4f92-8e51-b59d7ace8965
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+  enforced:
+    module:
+      - clubs
+id: node.field_student_volunteer
+field_name: field_student_volunteer
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

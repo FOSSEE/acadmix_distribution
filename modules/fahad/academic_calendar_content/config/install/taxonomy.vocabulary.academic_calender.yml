@@ -1,0 +1,12 @@
+uuid: 216d49b2-aa1e-44b0-b4a0-7c3d78450276
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - academic_calendar_content
+name: 'Academic Calender'
+vid: academic_calender
+description: 'Calendar and Time Table'
+hierarchy: 0
+weight: 0

@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains academic_calendar_content.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function academic_calendar_content_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the academic_calendar_content module.
+    case 'help.page.academic_calendar_content':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Academic Calendar Content Type') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function academic_calendar_content_theme() {
+  return [
+    'academic_calendar_content' => [
+      'render element' => 'children',
+    ],
+  ];
+}

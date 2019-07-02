@@ -1,0 +1,26 @@
+uuid: ba313479-74bf-4e1a-82d1-6781b2de0068
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - fac_page
+  module:
+    - node
+_core:
+  default_config_hash: PUgaWJKvV4bonhlcgMngfpHazmXGNQhJJtzT6pxa8-E
+id: node.field_mobile_number_new
+field_name: field_mobile_number_new
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

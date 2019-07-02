@@ -1,0 +1,13 @@
+name: 'bog_meetings'
+type: module
+description: 'Bog Meetings'
+core: 8.x
+package: 'Custom'
+dependencies: 
+  - drupal:file
+  - drupal:path
+  - drupal:text
+  - drupal:user
+  - drupal:node
+  - drupal:menu_ui
+

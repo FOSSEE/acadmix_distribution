@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_bog_date_time
+    - node.type.bog_meetings
+  enforced:
+    module:
+      - bog_meetings
+id: node.bog_meetings.field_bog_date_time
+field_name: field_bog_date_time
+entity_type: node
+bundle: bog_meetings
+label: 'bog date/Time'
+description: ''
+required: false
+translatable: false
+default_value:
+  -
+    value: 1559973785
+default_value_callback: ''
+settings: {  }
+field_type: timestamp

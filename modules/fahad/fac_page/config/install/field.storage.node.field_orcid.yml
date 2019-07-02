@@ -1,0 +1,26 @@
+uuid: 673736bf-6f60-46c1-af82-c930b824b2bf
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - fac_page
+  module:
+    - node
+_core:
+  default_config_hash: ihgtKavET7YaK26AhyVbCmU5YG5Tk0CE8ia5n9pDAv4
+id: node.field_orcid
+field_name: field_orcid
+entity_type: node
+type: string
+settings:
+  max_length: 255
+  is_ascii: false
+  case_sensitive: false
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false
