@@ -1,0 +1,24 @@
+uuid: d920a923-d1a9-431e-a4c9-c35ddce87796
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - fac_page
+  module:
+    - node
+    - text
+_core:
+  default_config_hash: OmJ_huKX8bZC5XV5NeklV6zNu73X6HzMIM6wL5FMuFg
+id: node.field_courses_taught
+field_name: field_courses_taught
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

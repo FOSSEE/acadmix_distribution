@@ -1,0 +1,14 @@
+uuid: d8a68894-5093-4bfa-b37a-39709a0cc7b3
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - fac_page
+_core:
+  default_config_hash: hnTbw4FW7qH_Fc0M3RyzxdDzVdz75MFkD-lHgffTLzM
+name: 'Research Area'
+vid: research_area
+description: 'Research Area terms'
+hierarchy: 0
+weight: 0

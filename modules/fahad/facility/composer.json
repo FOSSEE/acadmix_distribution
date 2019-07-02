@@ -1,0 +1,14 @@
+{
+  "name": "drupal/facility",
+  "type": "drupal-module",
+  "description": "My Awesome Module",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/facility",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/facility",
+    "source": "http://cgit.drupalcode.org/facility"
+  },
+  "require": { }
+}

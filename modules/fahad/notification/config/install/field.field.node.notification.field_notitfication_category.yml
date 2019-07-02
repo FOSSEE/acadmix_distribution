@@ -1,0 +1,31 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_notitfication_category
+    - node.type.notification
+    - taxonomy.vocabulary.notification_category
+  enforced:
+    module:
+      - notification
+id: node.notification.field_notitfication_category
+field_name: field_notitfication_category
+entity_type: node
+bundle: notification
+label: notitfication_category
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      notification_category: notification_category
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

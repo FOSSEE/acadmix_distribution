@@ -1,0 +1,28 @@
+uuid: a745585a-d589-4d42-8f7a-af5b18a3f04f
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - fac_page
+  module:
+    - file
+    - node
+_core:
+  default_config_hash: K0zvb57nMxH2hiM7l3r6C39k-FlUMN1a7YwYhuXWFjs
+id: node.field_faculty_cv
+field_name: field_faculty_cv
+entity_type: node
+type: file
+settings:
+  display_field: false
+  display_default: false
+  uri_scheme: public
+  target_type: file
+module: file
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_class
+    - node.type.clubs
+  module:
+    - text
+  enforced:
+    module:
+      - clubs
+id: node.clubs.field_class
+field_name: field_class
+entity_type: node
+bundle: clubs
+label: class
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

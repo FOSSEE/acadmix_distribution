@@ -1,0 +1,23 @@
+uuid: cd0df0ee-d712-40eb-bbbb-12a100fafb16
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - taxonomy
+  enforced:
+    module:
+      - academic_calendar_content
+id: node.field_calender_type
+field_name: field_calender_type
+entity_type: node
+type: entity_reference
+settings:
+  target_type: taxonomy_term
+module: core
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

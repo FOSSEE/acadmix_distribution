@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains bog_meetings.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function bog_meetings_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the bog_meetings module.
+    case 'help.page.bog_meetings':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Bog Meetings') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function bog_meetings_theme() {
+  return [
+    'bog_meetings' => [
+      'render element' => 'children',
+    ],
+  ];
+}

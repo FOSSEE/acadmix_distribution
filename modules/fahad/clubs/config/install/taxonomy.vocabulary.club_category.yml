@@ -1,0 +1,12 @@
+uuid: b7da9ff8-ed69-4737-824e-883e436d8d70
+langcode: en
+status: true
+dependencies: 
+  enforced:
+    module:
+      - clubs
+name: 'Club Category'
+vid: club_category
+description: 'Category of the Club'
+hierarchy: 0
+weight: 0

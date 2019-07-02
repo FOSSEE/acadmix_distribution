@@ -1,0 +1,67 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.clubs.body
+    - field.field.node.clubs.field_class
+    - field.field.node.clubs.field_club_category
+    - field.field.node.clubs.field_club_department
+    - field.field.node.clubs.field_faculty_incharge
+    - field.field.node.clubs.field_student_volunteer
+    - node.type.clubs
+  module:
+    - text
+    - user
+  enforced:
+    module:
+      - clubs
+id: node.clubs.default
+targetEntityType: node
+bundle: clubs
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 1
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_class:
+    weight: 4
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_club_department:
+    weight: 5
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_faculty_incharge:
+    weight: 2
+    label: above
+    settings:
+      link: true
+    third_party_settings: {  }
+    type: entity_reference_label
+    region: content
+  field_student_volunteer:
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_club_category: true
+  langcode: true

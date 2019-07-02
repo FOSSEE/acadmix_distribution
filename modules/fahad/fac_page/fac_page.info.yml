@@ -1,0 +1,16 @@
+name: 'fac_page'
+type: module
+description: 'My Awesome Module'
+core: 8.x
+package: 'Custom'
+dependencies:
+    - drupal:file
+    - drupal:image
+    - drupal:link
+    - drupal:name
+    - drupal:path
+    - drupal:text
+    - drupal:options
+    - drupal:user
+    - ds:ds
+    - pathauto:pathauto

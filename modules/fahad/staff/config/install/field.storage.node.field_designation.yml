@@ -1,0 +1,33 @@
+uuid: 2bb0e6d9-6746-4705-9233-68b7d5c544cc
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - options
+  enforced:
+    module:
+      - staff
+id: node.field_designation
+field_name: field_designation
+entity_type: node
+type: list_string
+settings:
+  allowed_values:
+    -
+      value: 'Office Assistant'
+      label: 'Office Assistant'
+    -
+      value: Accountant
+      label: Accountant
+    -
+      value: 'Multi-Tasking Staff'
+      label: 'Multi-Tasking Staff'
+  allowed_values_function: ''
+module: options
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

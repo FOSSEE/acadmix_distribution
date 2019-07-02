@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains facility.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function facility_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the facility module.
+    case 'help.page.facility':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function facility_theme() {
+  return [
+    'facility' => [
+      'render element' => 'children',
+    ],
+  ];
+}

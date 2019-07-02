@@ -1,0 +1,23 @@
+uuid: 8293a5a2-e4b9-4b58-8e49-1dc73ef8a8b8
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+  enforced:
+    module:
+      - clubs
+id: node.field_class
+field_name: field_class
+entity_type: node
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

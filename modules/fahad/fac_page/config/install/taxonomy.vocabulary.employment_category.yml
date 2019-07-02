@@ -1,0 +1,14 @@
+uuid: 3101cede-85bf-4434-af74-04840c9536b5
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - fac_page
+_core:
+  default_config_hash: r0SU6izUbpSAk_pWkCjaiXOFXC9WkeCMJXrTDpkCs84
+name: 'Employment Category'
+vid: employment_category
+description: 'Contains the Faculty Employment Category'
+hierarchy: 0
+weight: 0

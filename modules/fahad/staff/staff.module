@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains staff.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function staff_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the staff module.
+    case 'help.page.staff':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function staff_theme() {
+  return [
+    'staff' => [
+      'render element' => 'children',
+    ],
+  ];
+}

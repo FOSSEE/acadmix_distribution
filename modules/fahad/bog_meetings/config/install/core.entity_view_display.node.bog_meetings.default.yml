@@ -1,0 +1,52 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.bog_meetings.body
+    - field.field.node.bog_meetings.field_bog_date_time
+    - field.field.node.bog_meetings.field_bog_file
+    - node.type.bog_meetings
+  module:
+    - file
+    - text
+    - user
+  enforced:
+    module:
+      - bog_meetings
+id: node.bog_meetings.default
+targetEntityType: node
+bundle: bog_meetings
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  field_bog_date_time:
+    weight: 103
+    label: above
+    settings:
+      date_format: medium
+      custom_date_format: ''
+      timezone: ''
+    third_party_settings: {  }
+    type: timestamp
+    region: content
+  field_bog_file:
+    weight: 102
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true
