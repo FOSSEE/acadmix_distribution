@@ -1,0 +1,14 @@
+{
+  "name": "drupal/fac_page",
+  "type": "drupal-module",
+  "description": "My Awesome Module",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/fac_page",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/fac_page",
+    "source": "http://cgit.drupalcode.org/fac_page"
+  },
+  "require": { }
+}

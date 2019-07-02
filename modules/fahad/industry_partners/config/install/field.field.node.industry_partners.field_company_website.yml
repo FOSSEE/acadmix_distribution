@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_company_website
+    - node.type.industry_partners
+  module:
+    - link
+  enforced:
+    module:
+      - industry_partners
+id: node.industry_partners.field_company_website
+field_name: field_company_website
+entity_type: node
+bundle: industry_partners
+label: 'Company Website'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link

@@ -1,0 +1,13 @@
+name: 'academic_calendar_content'
+type: module
+description: 'Academic Calendar Content Type'
+core: 8.x
+package: 'Custom'
+dependencies:
+    - drupal:file
+    - drupal:path
+    - drupal:text
+    - drupal:user
+    - drupal:node
+    - drupal:menu_ui
+    - drupal:taxonomy

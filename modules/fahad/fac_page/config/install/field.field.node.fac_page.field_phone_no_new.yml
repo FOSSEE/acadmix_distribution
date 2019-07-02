@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_phone_no_new
+    - node.type.fac_page
+  enforced:
+    module:
+      - fac_page
+  module:
+    - text
+id: node.fac_page.field_phone_no_new
+field_name: field_phone_no_new
+entity_type: node
+bundle: fac_page
+label: 'Phone No'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

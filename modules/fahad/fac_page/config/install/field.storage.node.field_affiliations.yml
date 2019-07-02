@@ -1,0 +1,24 @@
+uuid: 13386bb3-c21b-47b3-b6cd-7f592a10885a
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - fac_page
+  module:
+    - node
+_core:
+  default_config_hash: WDDW4sW7AQ_vknjgOkSbUIbAxW0zZOnhwKaMLdPkzEE
+id: node.field_affiliations
+field_name: field_affiliations
+entity_type: node
+type: string_long
+settings:
+  case_sensitive: false
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

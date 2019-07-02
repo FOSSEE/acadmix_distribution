@@ -1,0 +1,26 @@
+uuid: b9fd98b9-1d46-4b69-b8ba-4bfac93b06f9
+langcode: en
+status: true
+dependencies:
+  module:
+    - file
+    - node
+  enforced:
+    module:
+      - notification
+id: node.field_notification_file
+field_name: field_notification_file
+entity_type: node
+type: file
+settings:
+  display_field: false
+  display_default: false
+  uri_scheme: public
+  target_type: file
+module: file
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

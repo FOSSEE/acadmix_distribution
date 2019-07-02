@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains industry_partners.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function industry_partners_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the industry_partners module.
+    case 'help.page.industry_partners':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function industry_partners_theme() {
+  return [
+    'industry_partners' => [
+      'render element' => 'children',
+    ],
+  ];
+}

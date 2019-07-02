@@ -1,0 +1,12 @@
+name: 'clubs'
+type: module
+description: 'My Awesome Module'
+core: 8.x
+package: 'Custom'
+dependencies:
+  - drupal:path
+  - drupal:text
+  - drupal:user
+  - drupal:node
+  - drupal:taxonomy
+  - drupal:menu_ui

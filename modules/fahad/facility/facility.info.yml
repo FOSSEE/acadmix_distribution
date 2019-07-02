@@ -1,0 +1,14 @@
+name: 'facility'
+type: module
+description: 'My Awesome Module'
+core: 8.x
+package: 'Custom'
+dependencies:
+  - drupal:text
+  - drupal:image
+  - drupal:link
+  - drupal:path
+  - drupal:user
+  - drupal:node
+  - drupal:file
+  - drupal:menu_ui

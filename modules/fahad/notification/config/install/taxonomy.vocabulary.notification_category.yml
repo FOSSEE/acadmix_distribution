@@ -1,0 +1,12 @@
+uuid: 0c1e3fee-8ad7-4f26-bbb2-68c2b616ac23
+langcode: en
+status: true
+dependencies:
+  enforced:
+    module:
+      - notification
+name: 'Notification Category'
+vid: notification_category
+description: 'Category of notification'
+hierarchy: 0
+weight: 0

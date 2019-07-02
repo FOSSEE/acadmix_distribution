@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_background
+    - node.type.fac_page
+  enforced:
+    module:
+      - fac_page
+  module:
+    - text
+id: node.fac_page.field_background
+field_name: field_background
+entity_type: node
+bundle: fac_page
+label: Background
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long
