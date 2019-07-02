@@ -30,8 +30,8 @@
 
 --><b>Fork</b> my Repository
 
--->Work with your Repo and commit to your Repository.
+-->Work with your fork and commit  your changes to your Repo.
 
 -->Create a Pull Request.
 
--->We’ll test your changes and Merge it.
+-->We’ll analyse your changes and Merge it.
