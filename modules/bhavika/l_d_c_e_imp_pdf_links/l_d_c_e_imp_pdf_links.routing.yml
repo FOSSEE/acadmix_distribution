@@ -1,0 +1,8 @@
+
+l_d_c_e_imp_pdf_links.pdf_links_controller_ldce_imp_pdf_links:
+  path: '/l_d_c_e_imp_pdf_links'
+  defaults:
+    _controller: '\Drupal\l_d_c_e_imp_pdf_links\Controller\PdfLinksController::ldce_imp_pdf_links'
+    _title: 'LDCE Link Module'
+  requirements:
+    _permission: 'access content'
