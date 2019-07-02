@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: 
+  enforced:
+    module:
+      - l_d_c_e_imp_pdf_links
+id: imp_links
+label: imp_links
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

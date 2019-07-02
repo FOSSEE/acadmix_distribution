@@ -1,0 +1,46 @@
+uuid: 0acf77ca-22a7-4526-960a-8be56feadb1d
+language: en
+migration_group: default
+id: course_new
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+label: 'course_import'
+source:
+  plugin: csv
+  path: /var/www/Course/sample.csv
+  delimiter: ','
+  enclosure: '"'
+  header_row_count: 1
+  keys:
+    - id
+process:
+  type:
+    plugin: default_value
+    default_value: new
+  title: title
+  body/value: body
+  body/format:
+    plugin: default_value
+    default_value: basic_html
+  field_category1:
+     -
+        plugin: entity_lookup
+        entity_type: taxonomy_term
+        bundle: category
+        source: category
+  field_period: period
+  field_intake1: intake
+  field_year_of_starting: year_of_starting
+  field_departmentnew:
+     -
+        plugin: entity_lookup 
+        entity_type: node
+        bundle: department
+        source: department
+destination:
+  plugin: 'entity:node'
+  bundle: new
+migration_dependencies:
+  required: {  }
+  optional: {  }  

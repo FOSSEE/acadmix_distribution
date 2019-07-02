@@ -1,0 +1,17 @@
+name: legal_forms
+type: module
+description: 'Legal forms module is for various legal forms of site'
+core: 8.x
+package: Custom
+dependencies:
+  - drupal:node
+  - drupal:text
+  - drupal:user
+  - drupal:menu_ui
+  - drupal:taxonomy
+  - drupal:options
+  - drupal:path
+  - drupal:file
+  # - ds:ds
+  # - pathauto:pathauto
+

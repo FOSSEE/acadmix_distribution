@@ -1,0 +1,8 @@
+
+legal_forms.legal_forms_controller_legal_forms:
+  path: '/legal_forms'
+  defaults:
+    _controller: '\Drupal\legal_forms\Controller\LegalFormsController::legal_forms'
+    _title: 'Legal Forms Module'
+  requirements:
+    _permission: 'access content'

@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains legal_forms.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function legal_forms_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the legal_forms module.
+    case 'help.page.legal_forms':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Legal forms module is for various legal forms of site') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function legal_forms_theme() {
+  return [
+    'legal_forms' => [
+      'render element' => 'children',
+    ],
+  ];
+}

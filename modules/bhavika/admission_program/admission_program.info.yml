@@ -1,0 +1,16 @@
+name: admission_program
+type: module
+description: 'This module is for different programs like ug,pg,etc'
+core: 8.x
+package: Custom
+dependencies:
+  - drupal:node
+  - drupal:text
+  - drupal:user
+  - drupal:menu_ui
+  - drupal:taxonomy
+  - drupal:options
+  - drupal:path
+  - ds:ds
+  - pathauto:pathauto
+
