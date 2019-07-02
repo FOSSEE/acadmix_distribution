@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_facebook_link
+    - node.type.clubs
+  module:
+    - link
+  enforced:
+    module:
+      - clubs
+id: node.clubs.field_facebook_link
+field_name: field_facebook_link
+entity_type: node
+bundle: clubs
+label: facebook_link
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  link_type: 17
+  title: 1
+field_type: link
