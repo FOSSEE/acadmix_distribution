@@ -1,0 +1,8 @@
+
+admission_program.admission_program_controller_admission_program:
+  path: '/admission_program'
+  defaults:
+    _controller: '\Drupal\admission_program\Controller\AdmissionProgramController::admission_program'
+    _title: 'Admission Program Module'
+  requirements:
+    _permission: 'access content'

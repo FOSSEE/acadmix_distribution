@@ -1,0 +1,50 @@
+uuid: 1141ae0c-c5ac-4b8a-87a0-5a42d2504519
+language: en
+migration_group: default
+id: company_import
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+label: 'company_import'
+source:
+  plugin: csv
+  path: /var/www/companies/csv files/company.csv
+  delimiter: ','
+  enclosure: '"'
+  header_row_count: 1
+  keys:
+    - id
+  constants:
+    file_source: /var/www/companies/images
+    file_dest: 'public://company/'
+process:
+  type:
+    plugin: default_value
+    default_value: companies
+  source_path:
+    -
+      plugin: skip_on_empty
+      method: process
+      source: logo
+    -
+      plugin: concat
+      delimiter: /
+      source:
+        - constants/file_source
+        - logo
+  title: title
+  body/value: body
+  body/format:
+    plugin: default_value
+    default_value: basic_html
+  field_company_link: link
+  field_logo:
+    plugin: file_import
+    source: '@source_path'
+    destination: constants/file_dest
+destination:
+  plugin: 'entity:node'
+  bundle: companies
+migration_dependencies:
+  required: {  }
+  optional: {  }  

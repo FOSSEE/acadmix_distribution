@@ -1,0 +1,63 @@
+<?php
+
+
+/**
+
+
+* Implements hook_uninstall().
+
+
+*/
+
+
+function legal_forms1_uninstall() { //<-- replace “welcome” with your module machine name 
+
+
+ // Load services.
+
+
+ $queryFactory = \Drupal::service('entity.query');
+
+
+ $nodeStorage  = \Drupal::entityManager()->getStorage('node');
+
+
+
+
+
+
+
+ // Query all entity.
+
+
+ $query = $queryFactory->get('node')
+// <-- replace event in below line with your content type machine name
+
+
+   ->condition('type', 'legal_forms'); 
+
+
+ $nids = $query->execute();
+
+
+
+
+
+
+
+ // Delete entities.
+
+
+ if (!empty($nids)) {
+
+
+   $entities = $nodeStorage->loadMultiple($nids);
+
+
+   $nodeStorage->delete($entities);
+
+
+ }
+
+
+}

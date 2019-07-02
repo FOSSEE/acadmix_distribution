@@ -1,0 +1,13 @@
+{
+    "name": "department",
+    "type": "drupal-module",
+    "description": "Department module is for department content type",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/department",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/department",
+        "source": "http://cgit.drupalcode.org/department",
+    },
+}

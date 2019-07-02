@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+  enforced:
+    module:
+      - l_d_c_e_imp_pdf_links
+# third_party_settings:
+#   menu_ui:
+#     available_menus:
+#       - main
+#     parent: 'main:'
+name: 'L.D.C.E imp PDF Links'
+type: l_d_c_e_imp_pdf_links
+description: 'This content type provides template for the representation of various useful links of L.D.C.E'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

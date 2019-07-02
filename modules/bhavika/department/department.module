@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains department.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function department_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the department module.
+    case 'help.page.department':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Department module is for department content type') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function department_theme() {
+  return [
+    'department' => [
+      'render element' => 'children',
+    ],
+  ];
+}

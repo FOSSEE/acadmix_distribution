@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains l_d_c_e_imp_pdf_links.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function l_d_c_e_imp_pdf_links_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the l_d_c_e_imp_pdf_links module.
+    case 'help.page.l_d_c_e_imp_pdf_links':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('This module is for important links that will be provided on site') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function l_d_c_e_imp_pdf_links_theme() {
+  return [
+    'l_d_c_e_imp_pdf_links' => [
+      'render element' => 'children',
+    ],
+  ];
+}

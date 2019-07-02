@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_intake1
+    - node.type.new
+  enforced:
+    module:
+      - admission_program
+id: node.new.field_intake1
+field_name: field_intake1
+entity_type: node
+bundle: new
+label: Intake
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string
