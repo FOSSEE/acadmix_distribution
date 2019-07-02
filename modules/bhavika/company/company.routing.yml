@@ -1,8 +1,0 @@
-
-company.company_controller_company_43:
-  path: '/company_'
-  defaults:
-    _controller: '\Drupal\company\Controller\CompanyController::company'
-    _title: 'Company Module'
-  requirements:
-    _permission: 'access content'

@@ -1,8 +1,0 @@
-
-department.department_controller_department:
-  path: '/department_'
-  defaults:
-    _controller: '\Drupal\department\Controller\DepartmentController::department'
-    _title: 'Department Module'
-  requirements:
-    _permission: 'access content'
