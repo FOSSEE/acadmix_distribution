@@ -1,0 +1,39 @@
+{#
+/**
+ * @file
+ * Display Suite 1 column template.
+ *
+ * Available variables:
+ * - ds_content_wrapper: wrapper around content
+ * - attributes: content region attributes
+ * - ds_content: content region
+ */
+#}
+<{{ ds_content_wrapper }}{{ attributes.addClass('ds-1col', 'clearfix') }}>
+
+  {{ title_suffix.contextual_links }}
+<div class="row mt-10">
+	<div class="col-sm-4 a">
+	 {{ ds_content.field_company_image}} 
+	</div>
+	<div class="col-sm-8 " >
+ {# {{ ds_content.field_area }} 
+   {{ ds_content.field_lab_equipment_cost }}
+     {{ ds_content.	field_utilisation_of_lab }}
+      {{ ds_content.body }}
+#}
+{{ ds_content|without('field_company_image','field_link') }}
+
+
+  </div>    
+
+<div class="row">
+
+<div class="col-sm-12">
+	{{ ds_content.field_link }}
+
+	</div>
+</div>
+
+</{{ ds_content_wrapper }}>
+
