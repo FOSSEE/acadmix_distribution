@@ -1,0 +1,57 @@
+{#
+/**
+ * @file
+ * Default theme implementation to display a view of unformatted rows.
+ *
+ * Available variables:
+ * - title: The title of this group of rows. May be empty.
+ * - rows: A list of the view's row items.
+ *   - attributes: The row's HTML attributes.
+ *   - content: The row's content.
+ * - view: The view object.
+ * - default_row_class: A flag indicating whether default classes should be
+ *   used on rows.
+ *
+ * @see template_preprocess_views_view_unformatted()
+ *
+ * @ingroup themeable
+ */
+#}
+
+{% if title %}
+  <h3>{{ title }}</h3>
+{% endif %}
+
+<div class="row text-center">
+  {% for row in rows %}
+    {%
+      set row_classes = [
+        default_row_class ? 'views-row','col-sm-4']
+    %}
+    
+    <div{{ row.attributes.addClass(row_classes) }}>
+       <div class="thumbnail">
+        {{ row.content }}
+       </div>
+     </div>
+  {% endfor %}
+</div>
+
+
+
+{#     <div class="row text-center">
+     
+      <div class="col-sm-3">
+        <div class="thumbnail" style="">
+          <img src="tech.jpeg" alt="Paris" width="400" height="300">
+          <p><strong>Metabolic engineering of cyanobacteria</strong></p>
+          <p>Metabolic engineering of cyanobacteria
+Cyanobacteria, which constitute a quantitatively dominant phylum, are well known for their ability to carry out oxygenic photosynthesis. This prokaryotic group has been attracting attention in biofuel applications due to its favourable physiological characteristics, photosynthetic efficiency and amenability to genetic manipulations. Figure 5. Metabolic oscillations in cyanobacteria. Profiles of (A) ...</p>
+          <button class="btn" >read more</button>
+        </div>
+      </div>
+    
+    </div>
+ #}
+
+  

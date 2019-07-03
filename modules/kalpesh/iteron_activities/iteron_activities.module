@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains iteron_activities.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function iteron_activities_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the iteron_activities module.
+    case 'help.page.iteron_activities':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function iteron_activities_theme() {
+  return [
+    'iteron_activities' => [
+      'render element' => 'children',
+    ],
+  ];
+}

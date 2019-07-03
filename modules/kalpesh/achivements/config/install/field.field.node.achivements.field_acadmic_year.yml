@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_acadmic_year
+    - node.type.achivements
+id: node.achivements.field_acadmic_year
+field_name: field_acadmic_year
+entity_type: node
+bundle: achivements
+label: 'Acadmic year'
+description: 'ex 2019-2020'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

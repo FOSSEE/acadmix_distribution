@@ -1,0 +1,13 @@
+{
+    "name": "club",
+    "type": "drupal-module",
+    "description": "My Awesome Module",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/club",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/club",
+        "source": "http://cgit.drupalcode.org/club",
+    },
+}

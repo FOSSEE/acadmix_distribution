@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_committee_member
+    - node.type.club
+id: node.club.field_committee_member
+field_name: field_committee_member
+entity_type: node
+bundle: club
+label: 'Committee members'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

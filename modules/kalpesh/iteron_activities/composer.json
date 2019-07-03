@@ -1,0 +1,13 @@
+{
+    "name": "iteron_activities",
+    "type": "drupal-module",
+    "description": "My Awesome Module",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/iteron_activities",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/iteron_activities",
+        "source": "http://cgit.drupalcode.org/iteron_activities",
+    },
+}
