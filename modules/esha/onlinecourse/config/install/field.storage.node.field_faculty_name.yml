@@ -4,6 +4,9 @@ status: true
 dependencies:
   module:
     - node
+  enforced:
+    module:
+      online_course
 id: node.field_faculty_name
 field_name: field_faculty_name
 entity_type: node

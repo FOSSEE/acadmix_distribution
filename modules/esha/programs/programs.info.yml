@@ -1,6 +1,6 @@
 name: 'programs'
 type: module
-description: 'Module for Content Type Programs Offered'
+description: 'Module for Content Type programs_offered'
 core: 8.x
 package: 'Custom'
 dependencies:
