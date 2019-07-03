@@ -1,0 +1,47 @@
+langcode: en
+status: true
+dependencies: {  }
+id: clubs
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: null
+migration_group: null
+label: 'Custom Content migration from CSV for Clubs'
+source:
+  plugin: csv
+  path: /var/www/html/project/docroot/test_migration_trail.csv
+  header_row_count: 1
+  keys:
+    - id
+process:
+  type:
+    plugin: default_value
+    default_value: clubs
+  title: title
+  body: body
+  field_class: class
+  field_student_volunteer: student_volunteer
+  field_club_category:
+    -
+      plugin: entity_lookup
+      entity_type: taxonomy_term
+      bundle: club_category
+      source: category
+  field_faculty_incharge:
+    -
+      plugin: entity_lookup
+      entity_type: node
+      bundle: fac_page
+      source: faculty_incharge
+  field_club_department:
+    -
+      plugin: entity_lookup
+      entity_type: node
+      bundle: department
+      source: department
+destination:
+  plugin: 'entity:node'
+migration_dependencies:
+  required: {  }
+  optional: {  }
