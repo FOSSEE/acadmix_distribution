@@ -1,11 +1,11 @@
 langcode: en
 status: true
 dependencies: 
-   enforced:
-    module:
-      - department
-name: thumbnail
-label: 'Thumbnail (100×100)'
+  enforced:
+    module: 
+      - company
+name: compimg
+label: 'CompanyImage (100×100)'
 effects:
   1cfec298-8620-4749-b100-ccb6c4500779:
     uuid: 1cfec298-8620-4749-b100-ccb6c4500779

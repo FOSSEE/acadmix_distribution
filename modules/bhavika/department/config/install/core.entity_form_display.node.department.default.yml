@@ -40,7 +40,7 @@ content:
     weight: 9
     settings:
       progress_indicator: throbber
-      preview_image_style: thumbnail
+      preview_image_style: deptimg
     third_party_settings: {  }
     type: image_image
     region: content
