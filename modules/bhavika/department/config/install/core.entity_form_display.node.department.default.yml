@@ -7,7 +7,7 @@ dependencies:
     - field.field.node.department.field_dept_mission
     - field.field.node.department.field_facilities
     - field.field.node.department.field_placements
-    - image.style.thumbnail
+    - image.style.deptimg
     - node.type.department
   module:
     - image
