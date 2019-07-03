@@ -1,0 +1,13 @@
+{
+    "name": "laboratory",
+    "type": "drupal-module",
+    "description": "This module store laboratories details",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/laboratory",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/laboratory",
+        "source": "http://cgit.drupalcode.org/laboratory",
+    },
+}

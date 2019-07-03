@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains club.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function club_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the club module.
+    case 'help.page.club':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function club_theme() {
+  return [
+    'club' => [
+      'render element' => 'children',
+    ],
+  ];
+}

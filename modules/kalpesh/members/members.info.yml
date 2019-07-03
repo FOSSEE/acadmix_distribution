@@ -1,0 +1,19 @@
+name: Members
+type: module
+description: 'This modole store members details'
+core: 8.x
+package: Custom
+dependencies:
+  - drupal:menu_ui
+  - drupal:file
+  - drupal:image
+  - drupal:name
+  - drupal:path
+  - drupal:text
+  - ds:ds
+  - drupal:user
+  - drupal:node
+  - drupal:taxonomy
+
+
+

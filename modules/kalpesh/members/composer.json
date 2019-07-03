@@ -1,0 +1,13 @@
+{
+    "name": "members",
+    "type": "drupal-module",
+    "description": "This modole store members details",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/members",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/members",
+        "source": "http://cgit.drupalcode.org/members",
+    },
+}
