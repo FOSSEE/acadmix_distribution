@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies: {  }
+id: faqs
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: null
+migration_group: null
+label: 'Custom Content migration from CSV for FAQS'
+source:
+  plugin: csv
+  path: /var/www/html/project/docroot/FAQ.csv
+  header_row_count: 1
+  keys:
+    - id
+process:
+  type:
+    plugin: default_value
+    default_value: faq
+  title: title
+  body: body
+destination:
+  plugin: 'entity:node'
+migration_dependencies:
+  required: {  }
+  optional: {  }
