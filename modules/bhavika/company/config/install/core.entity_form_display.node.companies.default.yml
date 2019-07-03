@@ -5,7 +5,7 @@ dependencies:
     - field.field.node.companies.body
     - field.field.node.companies.field_company_link
     - field.field.node.companies.field_logo
-    - image.style.thumbnail
+    - image.style.compimg
     - node.type.companies
   module:
     - image
@@ -47,7 +47,7 @@ content:
     weight: 8
     settings:
       progress_indicator: throbber
-      preview_image_style: thumbnail
+      preview_image_style: compimg
     third_party_settings: {  }
     type: image_image
     region: content
