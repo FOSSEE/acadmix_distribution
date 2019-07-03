@@ -5,6 +5,9 @@ dependencies:
     - field.storage.node.field_faculty_name
     - node.type.fac_page
     - node.type.online_course
+  enforced:
+    module:
+      online_course
 id: node.online_course.field_faculty_name
 field_name: field_faculty_name
 entity_type: node

@@ -1,7 +1,7 @@
 {
   "name": "drupal/onlinecourse",
   "type": "drupal-module",
-  "description": "My Awesome Module",
+  "description": "Module for Content Type online_course",
   "keywords": ["Drupal"],
   "license": "GPL-2.0+",
   "homepage": "https://www.drupal.org/project/onlinecourse",

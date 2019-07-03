@@ -9,6 +9,9 @@ dependencies:
   module:
     - link
     - user
+  enforced:
+    module:
+      online_course
 id: node.online_course.default
 targetEntityType: node
 bundle: online_course
