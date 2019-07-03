@@ -1,0 +1,13 @@
+{
+    "name": "company",
+    "type": "drupal-module",
+    "description": "Company module is for companies content type for placements",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/company",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/company",
+        "source": "http://cgit.drupalcode.org/company",
+    },
+}

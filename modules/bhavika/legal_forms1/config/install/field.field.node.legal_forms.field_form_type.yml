@@ -1,0 +1,31 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_form_type
+    - node.type.legal_forms
+    - taxonomy.vocabulary.legal_forms
+  enforced:
+    module:
+      - legal_forms1
+id: node.legal_forms.field_form_type
+field_name: field_form_type
+entity_type: node
+bundle: legal_forms
+label: form_type
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:taxonomy_term'
+  handler_settings:
+    target_bundles:
+      legal_forms: legal_forms
+    sort:
+      field: name
+      direction: asc
+    auto_create: false
+    auto_create_bundle: academics_category
+field_type: entity_reference

@@ -1,0 +1,8 @@
+
+legal_forms1.legal_forms_controller_legalforms:
+  path: '/legal_forms1'
+  defaults:
+    _controller: '\Drupal\legal_forms1\Controller\LegalFormsController::legalforms'
+    _title: 'legalforms'
+  requirements:
+    _permission: 'access content'

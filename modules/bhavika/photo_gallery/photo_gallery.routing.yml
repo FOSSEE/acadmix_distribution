@@ -1,0 +1,8 @@
+
+photo_gallery.photo_gallery_controller_photo_gallery:
+  path: '/photo_gallery'
+  defaults:
+    _controller: '\Drupal\photo_gallery\Controller\PhotoGalleryController::photo_gallery'
+    _title: 'Photo Gallery Module'
+  requirements:
+    _permission: 'access content'

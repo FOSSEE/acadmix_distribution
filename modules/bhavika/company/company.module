@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains company.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function company_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the company module.
+    case 'help.page.company':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Company module is for companies content type for placements') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function company_theme() {
+  return [
+    'company' => [
+      'render element' => 'children',
+    ],
+  ];
+}

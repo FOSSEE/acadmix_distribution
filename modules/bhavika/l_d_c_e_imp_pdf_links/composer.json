@@ -1,0 +1,13 @@
+{
+    "name": "l_d_c_e_imp_pdf_links",
+    "type": "drupal-module",
+    "description": "This module is for important links that will be provided on site",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/l_d_c_e_imp_pdf_links",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/l_d_c_e_imp_pdf_links",
+        "source": "http://cgit.drupalcode.org/l_d_c_e_imp_pdf_links",
+    },
+}

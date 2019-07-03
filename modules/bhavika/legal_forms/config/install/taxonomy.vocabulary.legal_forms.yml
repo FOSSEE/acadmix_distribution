@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: 
+  enforced:
+    module:
+      -legal_forms
+name: legal_forms
+vid: legal_forms
+description: ''
+hierarchy: 0
+weight: 0

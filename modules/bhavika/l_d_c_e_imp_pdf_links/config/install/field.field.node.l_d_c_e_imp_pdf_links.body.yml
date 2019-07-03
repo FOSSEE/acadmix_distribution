@@ -1,0 +1,24 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.l_d_c_e_imp_pdf_links
+  module:
+    - text
+  enforced:
+    module:
+      - l_d_c_e_imp_pdf_links
+id: node.l_d_c_e_imp_pdf_links.body
+field_name: body
+entity_type: node
+bundle: l_d_c_e_imp_pdf_links
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+field_type: text_with_summary

@@ -1,0 +1,12 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+  enforced:
+    module: 
+      - company
+id: node.teaser
+label: Teaser
+targetEntityType: node
+cache: true

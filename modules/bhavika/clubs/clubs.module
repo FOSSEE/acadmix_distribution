@@ -1,0 +1,64 @@
+<?php
+
+/**
+ * @file
+ * Contains welcome.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function clubs_form_alter(&$form, &$form_state, $form_id){
+	//print_r($form_id);
+	print_r($form['#view']);
+	if($form_id == 'node_page_form')
+	{
+
+	  //print_r($form);
+
+		$form['actions']['submit']['#value'] = 'Update';
+		// $show= print_r($form,true);
+		// echo $show;
+		//echo '<pre>';
+		
+		//echo '</pre>';
+		// echo '<pre>';
+		// var_dump($form);
+		// echo '</pre>';
+	}
+	if($form_id == 'system_site_information_settings')
+	{
+		// echo '<pre>';
+		// print_r($form);
+		//  echo '</pre>';
+		$form['site_information']['site_name']['#default_value'] = 'L.D College Of Engineering';
+		$form['site_information']['site_mail']['#default_value'] = 'ldce-abad-dte@gujarat.gov.in';
+	}
+}
+function clubs_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the welcome module.
+    case 'help.page.clubs':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('this module shows welcome message to logged in user.') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function clubs_theme() {
+  return [
+    'clubs' => [
+      'render element' => 'children',
+    ],
+  ];
+}
+
+

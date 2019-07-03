@@ -1,0 +1,13 @@
+{
+    "name": "admission_program",
+    "type": "drupal-module",
+    "description": "This module is for different programs like ug,pg,etc",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/admission_program",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/admission_program",
+        "source": "http://cgit.drupalcode.org/admission_program",
+    },
+}
