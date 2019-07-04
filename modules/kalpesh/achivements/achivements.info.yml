@@ -1,0 +1,16 @@
+name: Achivements
+type: module
+description: 'This module store student achivements'
+core: 8.x
+package: Custom
+dependencies:
+  - drupal:menu_ui
+  - drupal:file
+  - drupal:image
+  - drupal:path
+  - drupal:text
+  - ds:ds
+  - drupal:user
+  - drupal:node
+ 
+  

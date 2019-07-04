@@ -8,3 +8,4 @@ dependencies:
   - drupal:node
   - drupal:user
   - drupal:menu_ui
+  - acadmix_faculty:acadmix_faculty

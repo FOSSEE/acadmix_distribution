@@ -1,0 +1,14 @@
+name: Syllbus
+type: module
+description: 'This module is store the university syllbus'
+core: 8.x
+package: Custom
+dependencies:
+  - drupal:menu_ui
+  - drupal:file
+  - drupal:path
+  - drupal:text
+  - ds:ds
+  - drupal:user
+  - drupal:node
+

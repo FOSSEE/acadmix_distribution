@@ -1,0 +1,13 @@
+{
+    "name": "achivements",
+    "type": "drupal-module",
+    "description": "This module store student achivements",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/achivements",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/achivements",
+        "source": "http://cgit.drupalcode.org/achivements",
+    },
+}

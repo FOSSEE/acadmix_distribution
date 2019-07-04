@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_lab_equipment_cost
+    - node.type.laboratories
+id: node.laboratories.field_lab_equipment_cost
+field_name: field_lab_equipment_cost
+entity_type: node
+bundle: laboratories
+label: 'Lab Equipment cost'
+description: 'cost of software and machines'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -10,3 +10,4 @@ dependencies:
     - drupal:user
     - drupal:node
     - drupal:menu_ui
+    - acadmix_faculty:acadmix_faculty

@@ -1,0 +1,164 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.achivements.body
+    - field.field.node.achivements.field_acadmic_year
+    - field.field.node.achivements.field_achivement_files
+    - field.field.node.achivements.field_achivement_image
+    - image.style.acad_fac_thumbnail_400_300_
+    - node.type.achivements
+  module:
+    - ds
+    - file
+    - image
+    - text
+    - user
+third_party_settings:
+  ds:
+    layout:
+      id: ds_1col
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          ds_content: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+          ds_content: {  }
+    regions:
+      ds_content:
+        - field_acadmic_year
+        - body
+        - field_achivement_image
+        - field_achivement_files
+id: node.achivements.default
+targetEntityType: node
+bundle: achivements
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 102
+    settings: {  }
+    third_party_settings:
+      ds:
+        ft:
+          id: expert
+          settings:
+            lb: ''
+            prefix: ''
+            lbw-el: 'div '
+            lbw-cl: col-10
+            lbw-at: ''
+            ow: true
+            ow-el: div
+            ow-cl: ' mt-20 col-sm-12'
+            ow-at: ''
+            fis-el: ''
+            fis-cl: ''
+            fis-at: ''
+            fi-el: ''
+            fi-cl: ''
+            fi-at: ''
+            suffix: ''
+            lbw: false
+            lb-col: false
+            ow-def-at: false
+            ow-def-cl: false
+            fis: false
+            fis-def-at: false
+            fi: false
+            fi-def-at: false
+    region: ds_content
+  field_acadmic_year:
+    weight: 101
+    label: above
+    settings:
+      link_to_entity: false
+    third_party_settings:
+      ds:
+        ft:
+          id: expert
+          settings:
+            lb: 'Acadmic year'
+            prefix: ''
+            lbw: true
+            lbw-el: div
+            lbw-cl: 'col-sm-2 fw-bold '
+            lbw-at: ''
+            ow: true
+            ow-el: div
+            ow-cl: 'mt-20 mb-10'
+            ow-at: ''
+            fis-el: ''
+            fis-cl: ''
+            fis-at: ''
+            fi: true
+            fi-el: div
+            fi-cl: col-sm-10
+            fi-at: ''
+            suffix: ''
+            lb-col: false
+            ow-def-at: false
+            ow-def-cl: false
+            fis: false
+            fis-def-at: false
+            fi-def-at: false
+    type: string
+    region: ds_content
+  field_achivement_files:
+    weight: 104
+    label: above
+    settings:
+      use_description_as_link_text: true
+    third_party_settings: {  }
+    type: file_default
+    region: ds_content
+  field_achivement_image:
+    weight: 103
+    label: above
+    settings:
+      image_style: acad_fac_thumbnail_400_300_
+      image_link: ''
+    third_party_settings:
+      ds:
+        ds_limit: ''
+        ft:
+          id: expert
+          settings:
+            lb: ''
+            prefix: ''
+            lbw-el: ''
+            lbw-cl: ''
+            lbw-at: ''
+            ow: true
+            ow-el: div
+            ow-cl: 'row col-sm-4'
+            ow-at: ''
+            fis: true
+            fis-el: div
+            fis-cl: 'col-sm-4 center-block'
+            fis-at: ''
+            fi: true
+            fi-el: div
+            fi-cl: 'col-sm-4 center-block'
+            fi-at: ''
+            suffix: ''
+            lbw: false
+            lb-col: false
+            ow-def-at: false
+            ow-def-cl: false
+            fis-def-at: false
+            fi-def-at: false
+    type: image
+    region: ds_content
+hidden:
+  langcode: true
+  links: true

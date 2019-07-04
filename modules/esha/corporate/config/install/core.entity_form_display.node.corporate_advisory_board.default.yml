@@ -6,7 +6,7 @@ dependencies:
     - field.field.node.corporate_advisory_board.field_company_website
     - field.field.node.corporate_advisory_board.field_designation
     - field.field.node.corporate_advisory_board.field_member_image
-    - image.style.thumbnail
+    - image.style.cabimg
     - node.type.corporate_advisory_board
   module:
     - image
@@ -30,7 +30,7 @@ content:
     weight: 124
     settings:
       progress_indicator: throbber
-      preview_image_style: thumbnail
+      preview_image_style: cabimg
     third_party_settings: {  }
     type: image_image
     region: content

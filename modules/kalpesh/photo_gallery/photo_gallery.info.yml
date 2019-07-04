@@ -1,0 +1,17 @@
+name: photo_gallery
+type: module
+description: 'This module is use for stylish photo gallery'
+core: 8.x
+package: Custom
+dependencies:
+  - drupal:menu_ui
+  - drupal:image
+  - drupal:path
+  - drupal:text
+  - colorbox
+  - ds:ds
+  - drupal:text
+  - drupal:user
+  - drupal:node
+  - drupal:file
+  

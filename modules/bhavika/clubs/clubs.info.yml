@@ -1,6 +1,6 @@
-name: 'welcome'
+name: 'clubs'
 type: module
-description: 'this module shows welcome message to logged in user.'
+description: 'this module is for clubs content type.'
 core: 8.x
 package: 'Custom'
 # dependencies:

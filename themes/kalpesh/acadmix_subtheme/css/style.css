@@ -1,0 +1,130 @@
+
+.image {
+  display: block;
+  width: auto;
+  height: auto;
+  border: 5px double;
+}
+.image img {
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgba(35, 41, 49, 0.51);
+}
+
+.con:hover .overlay {
+  opacity: 1;
+
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.text a{
+  color: #ffffff;
+}
+
+.text a:hover {
+  color: #ffffff;
+}
+
+
+
+
+
+.images { 
+   position: relative; 
+   width: 100%; 
+}
+
+
+/*
+h3 .titlelab a{
+   
+   position:relative; 
+   top: 200px; 
+   left: 0; 
+   width: 100%; 
+text-align:center;
+color: wheat;
+
+}
+
+*/
+
+.view-id-laboratories h3  a{
+    position: absolute;
+    left: 10px;
+    width: 100%;
+    bottom: 5em;
+    text-align: center;
+    color: #EFE5EC;
+    top:240px;
+
+}
+.view-id-laboratories h3 img{
+ border: 5px double;
+}
+
+
+.view-id-laboratories h3 a:hover {
+  color: #ffffff;
+
+}
+
+
+
+/*recruters node*/
+
+ .a{
+
+  padding: 0px;
+    float: none;
+    
+    
+ }
+
+
+ /*recruters view*/
+
+ /* override position and transform in 3.3.x */
+.carousel-inner .item.left.active {
+  transform: translateX(-33%);
+}
+.carousel-inner .item.right.active {
+  transform: translateX(33%);
+}
+
+.carousel-inner .item.next {
+  transform: translateX(33%)
+}
+.carousel-inner .item.prev {
+  transform: translateX(-33%)
+}
+
+.carousel-inner .item.right,
+.carousel-inner .item.left { 
+  transform: translateX(0);
+}
+
+
+.carousel-control.left,.carousel-control.right {background-image:none;}

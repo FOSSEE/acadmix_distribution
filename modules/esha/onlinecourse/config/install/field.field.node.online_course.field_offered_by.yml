@@ -4,6 +4,9 @@ dependencies:
   config:
     - field.storage.node.field_offered_by
     - node.type.online_course
+  enforced:
+    module:
+      online_course
 id: node.online_course.field_offered_by
 field_name: field_offered_by
 entity_type: node
