@@ -2,12 +2,15 @@ langcode: en
 status: true
 dependencies:
   config:
-    - node.type.laboratories
-id: node.laboratories.title
+    - node.type.syllbus
+  enforced:
+    module:
+      - syllbus
+id: node.syllbus.title
 field_name: title
 entity_type: node
-bundle: laboratories
-label: Laboratory
+bundle: syllbus
+label: Syllbus
 description: ''
 required: true
 translatable: true

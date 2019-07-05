@@ -3,6 +3,9 @@ status: true
 dependencies:
   module:
     - node
+  enforced:
+    module:
+      - laboratories
 id: node.field_lab_equipment_cost
 field_name: field_lab_equipment_cost
 entity_type: node

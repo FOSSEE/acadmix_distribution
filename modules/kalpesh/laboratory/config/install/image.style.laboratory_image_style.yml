@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies: 
+    enforced:
+    module:
+      - laboratories
+name: laboratory_image_style
+label: 'laboratory image style'
+effects:
+  c989a340-a271-4d7f-8475-32e97bbd71d5:
+    uuid: c989a340-a271-4d7f-8475-32e97bbd71d5
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 400
+      height: 300
+      anchor: center-center

@@ -4,6 +4,9 @@ dependencies:
   module:
     - node
     - text
+  enforced:
+    module:
+      - laboratories
 id: node.field_utilisation_of_lab
 field_name: field_utilisation_of_lab
 entity_type: node

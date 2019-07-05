@@ -2,12 +2,15 @@ langcode: en
 status: true
 dependencies:
   config:
-    - node.type.iteron_activities
-id: node.iteron_activities.title
+    - node.type.achivements
+  enforced:
+    module:
+      - achivements
+id: node.achivements.title
 field_name: title
 entity_type: node
-bundle: iteron_activities
-label: Topic
+bundle: achivements
+label: Title
 description: ''
 required: true
 translatable: true

@@ -4,12 +4,15 @@ dependencies:
   config:
     - field.field.node.photograpy.body
     - field.field.node.photograpy.field_photo_gallery
-    - image.style.acad_fac_thumbnail_400_300_
+    - image.style.photo_gallery_image_style
     - node.type.photograpy
   module:
     - image
     - path
     - text
+  enforced:
+    module:
+      - photograpy
 id: node.photograpy.default
 targetEntityType: node
 bundle: photograpy
@@ -33,7 +36,7 @@ content:
   field_photo_gallery:
     weight: 8
     settings:
-      preview_image_style: acad_fac_thumbnail_400_300_
+      preview_image_style: photo_gallery_image_style
       progress_indicator: throbber
     third_party_settings: {  }
     type: image_image

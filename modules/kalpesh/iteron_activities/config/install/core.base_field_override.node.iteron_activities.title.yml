@@ -2,12 +2,15 @@ langcode: en
 status: true
 dependencies:
   config:
-    - node.type.syllbus
-id: node.syllbus.title
+    - node.type.iteron_activities
+  enforced:
+    module:
+      - iteron_activities
+id: node.iteron_activities.title
 field_name: title
 entity_type: node
-bundle: syllbus
-label: Syllbus
+bundle: iteron_activities
+label: Topic
 description: ''
 required: true
 translatable: true

@@ -6,6 +6,9 @@ dependencies:
     - node.type.recruiters
   module:
     - text
+  enforced:
+    module:
+      - recruiters
 id: node.recruiters.body
 field_name: body
 entity_type: node

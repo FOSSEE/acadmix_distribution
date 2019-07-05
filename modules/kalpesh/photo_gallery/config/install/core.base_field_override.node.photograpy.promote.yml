@@ -2,11 +2,14 @@ langcode: en
 status: true
 dependencies:
   config:
-    - node.type.club
-id: node.club.promote
+    - node.type.photograpy
+  enforced:
+    module:
+      - photograpy
+id: node.photograpy.promote
 field_name: promote
 entity_type: node
-bundle: club
+bundle: photograpy
 label: 'Promoted to front page'
 description: ''
 required: false

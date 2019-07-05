@@ -2,11 +2,14 @@ langcode: en
 status: true
 dependencies:
   config:
-    - node.type.members
-id: node.members.promote
+    - node.type.laboratories
+  enforced:
+    module:
+      - laboratories
+id: node.laboratories.promote
 field_name: promote
 entity_type: node
-bundle: members
+bundle: laboratories
 label: 'Promoted to front page'
 description: ''
 required: false
@@ -19,3 +22,4 @@ settings:
   on_label: 'On'
   off_label: 'Off'
 field_type: boolean
+

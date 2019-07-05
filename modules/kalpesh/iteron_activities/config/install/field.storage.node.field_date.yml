@@ -4,6 +4,9 @@ dependencies:
   module:
     - datetime
     - node
+  enforced:
+    module:
+      - iteron_activities
 id: node.field_date
 field_name: field_date
 entity_type: node

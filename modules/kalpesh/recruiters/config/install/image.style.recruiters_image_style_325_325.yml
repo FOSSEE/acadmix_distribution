@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: recruiters_image_style_325_325
+label: 'Recruiters Image style 325*325'
+effects:
+  9c2f048c-9992-4c3a-a1f9-c7953b2cf854:
+    uuid: 9c2f048c-9992-4c3a-a1f9-c7953b2cf854
+    id: image_scale
+    weight: 1
+    data:
+      width: 325
+      height: 325
+      upscale: false

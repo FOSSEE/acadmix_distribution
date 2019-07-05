@@ -5,6 +5,9 @@ dependencies:
     - file
     - image
     - node
+  enforced:
+    module:
+      - photograpy
 id: node.field_photo_gallery
 field_name: field_photo_gallery
 entity_type: node

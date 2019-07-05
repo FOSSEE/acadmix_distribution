@@ -5,7 +5,7 @@ dependencies:
     - field.field.node.recruiters.body
     - field.field.node.recruiters.field_company_image
     - field.field.node.recruiters.field_link
-    - image.style.acad_fac_thumbnail_400_300_
+    - image.style.recruiters_image_style_325_325
     - node.type.recruiters
   module:
     - ds
@@ -79,7 +79,7 @@ content:
     weight: 1
     label: hidden
     settings:
-      image_style: acad_fac_thumbnail_400_300_
+      image_style: recruiters_image_style_325_325
       image_link: ''
     third_party_settings:
       ds:

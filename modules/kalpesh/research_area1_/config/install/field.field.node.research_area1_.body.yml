@@ -6,6 +6,9 @@ dependencies:
     - node.type.research_area1_
   module:
     - text
+  enforced:
+    module:
+      - research_area1_
 id: node.research_area1_.body
 field_name: body
 entity_type: node

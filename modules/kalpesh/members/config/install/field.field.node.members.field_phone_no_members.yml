@@ -4,6 +4,9 @@ dependencies:
   config:
     - field.storage.node.field_phone_no_members
     - node.type.members
+  enforced:
+    module:
+      - members
 id: node.members.field_phone_no_members
 field_name: field_phone_no_members
 entity_type: node

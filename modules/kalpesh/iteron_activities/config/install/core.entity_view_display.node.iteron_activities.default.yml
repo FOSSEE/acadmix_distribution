@@ -17,6 +17,9 @@ dependencies:
     - image
     - text
     - user
+  enforced:
+    module:
+      - iteron_activities
 third_party_settings:
   ds:
     layout:

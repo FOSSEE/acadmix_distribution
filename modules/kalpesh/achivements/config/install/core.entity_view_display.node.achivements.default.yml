@@ -6,7 +6,7 @@ dependencies:
     - field.field.node.achivements.field_acadmic_year
     - field.field.node.achivements.field_achivement_files
     - field.field.node.achivements.field_achivement_image
-    - image.style.acad_fac_thumbnail_400_300_
+    - image.style.achievament_image_style
     - node.type.achivements
   module:
     - ds
@@ -14,6 +14,9 @@ dependencies:
     - image
     - text
     - user
+  enforced:
+    module:
+      - achivements
 third_party_settings:
   ds:
     layout:
@@ -125,7 +128,7 @@ content:
     weight: 103
     label: above
     settings:
-      image_style: acad_fac_thumbnail_400_300_
+      image_style: achievament_image_style
       image_link: ''
     third_party_settings:
       ds:

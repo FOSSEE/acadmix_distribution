@@ -6,6 +6,9 @@ dependencies:
     - node.type.laboratories
   module:
     - text
+  enforced:
+    module:
+      - laboratories
 id: node.laboratories.body
 field_name: body
 entity_type: node

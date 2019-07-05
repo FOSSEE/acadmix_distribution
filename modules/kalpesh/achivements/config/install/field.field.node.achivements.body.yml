@@ -6,6 +6,9 @@ dependencies:
     - node.type.achivements
   module:
     - text
+  enforced:
+    module:
+      - achivements
 id: node.achivements.body
 field_name: body
 entity_type: node

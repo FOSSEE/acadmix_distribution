@@ -8,6 +8,9 @@ dependencies:
   module:
     - text
     - user
+  enforced:
+    module:
+      - recruiters
 id: node.recruiters.teaser
 targetEntityType: node
 bundle: recruiters

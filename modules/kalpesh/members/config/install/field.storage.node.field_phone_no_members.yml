@@ -3,6 +3,9 @@ status: true
 dependencies:
   module:
     - node
+  enforced:
+    module:
+      - members
 id: node.field_phone_no_members
 field_name: field_phone_no_members
 entity_type: node

@@ -2,11 +2,14 @@ langcode: en
 status: true
 dependencies:
   config:
-    - node.type.research_area1_
-id: node.research_area1_.promote
+    - node.type.syllbus
+  enforced:
+    module:
+      - syllbus
+id: node.syllbus.promote
 field_name: promote
 entity_type: node
-bundle: research_area1_
+bundle: syllbus
 label: 'Promoted to front page'
 description: ''
 required: false

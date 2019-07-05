@@ -2,11 +2,14 @@ langcode: en
 status: true
 dependencies:
   config:
-    - node.type.syllbus
-id: node.syllbus.promote
+    - node.type.achivements
+  enforced:
+    module:
+      - achivements
+id: node.achivements.promote
 field_name: promote
 entity_type: node
-bundle: syllbus
+bundle: achivements
 label: 'Promoted to front page'
 description: ''
 required: false

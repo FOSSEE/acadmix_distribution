@@ -5,6 +5,9 @@ dependencies:
     - file
     - image
     - node
+  enforced:
+    module:
+      - research_area1_
 id: node.field_image_research_area
 field_name: field_image_research_area
 entity_type: node

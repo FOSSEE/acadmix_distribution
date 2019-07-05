@@ -3,6 +3,9 @@ status: true
 dependencies:
   module:
     - node
+  enforced:
+    module:
+      - club
 id: node.field_committee_member
 field_name: field_committee_member
 entity_type: node

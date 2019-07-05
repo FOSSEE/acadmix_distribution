@@ -6,6 +6,9 @@ dependencies:
     - node.type.recruiters
   module:
     - image
+  enforced:
+    module:
+      - recruiters
 id: node.recruiters.field_company_image
 field_name: field_company_image
 entity_type: node

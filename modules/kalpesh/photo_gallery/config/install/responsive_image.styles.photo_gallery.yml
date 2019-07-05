@@ -2,13 +2,10 @@ langcode: en
 status: true
 dependencies:
   config:
-    - image.style.acad_fac_max_1300x1300
-    - image.style.acad_fac_max_325x325
-    - image.style.acad_fac_max_650x650
-    - image.style.acad_fac_thumbnail_400_300_
+    - image.style.photo_gallery_image_style
   enforced:
     module:
-      - acadmix_faculty
+      - photograpy
 _core:
   default_config_hash: Umj5KTYrfwM79WjP6IJpQHZGv0GEmu70WZarLM3BfTs
 id: photo_gallery
@@ -21,8 +18,6 @@ image_style_mappings:
     image_mapping:
       sizes: '(min-width: 1290px) 325px, (min-width: 851px) 25vw, (min-width: 560px) 50vw, 100vw'
       sizes_image_styles:
-        - acad_fac_max_1300x1300
-        - acad_fac_max_325x325
-        - acad_fac_max_650x650
+        - photo_gallery_image_style
 breakpoint_group: responsive_image
-fallback_image_style: acad_fac_thumbnail_400_300_
+fallback_image_style: photo_gallery_image_style

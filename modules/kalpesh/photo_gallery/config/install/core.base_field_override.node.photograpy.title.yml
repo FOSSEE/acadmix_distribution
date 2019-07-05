@@ -3,6 +3,9 @@ status: true
 dependencies:
   config:
     - node.type.photograpy
+  enforced:
+    module:
+      - photograpy
 id: node.photograpy.title
 field_name: title
 entity_type: node

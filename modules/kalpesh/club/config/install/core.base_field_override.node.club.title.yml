@@ -3,6 +3,9 @@ status: true
 dependencies:
   config:
     - node.type.club
+  enforced:
+    module:
+      - club
 id: node.club.title
 field_name: title
 entity_type: node

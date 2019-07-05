@@ -4,6 +4,9 @@ dependencies:
   config:
     - field.storage.node.field_resource_person
     - node.type.iteron_activities
+  enforced:
+    module:
+      - iteron_activities
 id: node.iteron_activities.field_resource_person
 field_name: field_resource_person
 entity_type: node

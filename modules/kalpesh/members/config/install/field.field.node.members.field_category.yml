@@ -5,6 +5,9 @@ dependencies:
     - field.storage.node.field_category
     - node.type.members
     - taxonomy.vocabulary.category
+  enforced:
+    module:
+      - members
 id: node.members.field_category
 field_name: field_category
 entity_type: node

@@ -3,6 +3,9 @@ status: true
 dependencies:
   module:
     - node
+  enforced:
+    module:
+      - laboratories
 id: node.field_area
 field_name: field_area
 entity_type: node
