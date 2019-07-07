@@ -3,6 +3,9 @@ status: true
 dependencies:
   config:
     - node.type.recruiters
+  enforced:
+    module:
+      - recruiters
 id: node.recruiters.title
 field_name: title
 entity_type: node

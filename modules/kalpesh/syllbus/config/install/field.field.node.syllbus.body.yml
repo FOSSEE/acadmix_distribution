@@ -6,6 +6,9 @@ dependencies:
     - node.type.syllbus
   module:
     - text
+  enforced:
+    module:
+      - syllbus
 id: node.syllbus.body
 field_name: body
 entity_type: node

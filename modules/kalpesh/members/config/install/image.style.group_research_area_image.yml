@@ -1,6 +1,9 @@
 langcode: en
 status: true
-dependencies: {  }
+dependencies: 
+  enforced:
+    module:
+      - members
 name: group_research_area_image
 label: 'Group Research area image'
 effects:

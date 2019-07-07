@@ -2,12 +2,15 @@ langcode: en
 status: true
 dependencies:
   config:
-    - node.type.achivements
-id: node.achivements.title
+    - node.type.laboratories
+  enforced:
+    module:
+      - laboratories
+id: node.laboratories.title
 field_name: title
 entity_type: node
-bundle: achivements
-label: Title
+bundle: laboratories
+label: Laboratory
 description: ''
 required: true
 translatable: true

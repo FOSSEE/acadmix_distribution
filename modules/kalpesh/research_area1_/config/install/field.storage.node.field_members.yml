@@ -3,6 +3,9 @@ status: true
 dependencies:
   module:
     - node
+  enforced:
+    module:
+      - research_area1_
 id: node.field_members
 field_name: field_members
 entity_type: node

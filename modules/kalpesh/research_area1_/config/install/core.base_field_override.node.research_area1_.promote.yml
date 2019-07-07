@@ -2,11 +2,14 @@ langcode: en
 status: true
 dependencies:
   config:
-    - node.type.iteron_activities
-id: node.iteron_activities.promote
+    - node.type.research_area1_
+  enforced:
+    module:
+      - research_area1_
+id: node.research_area1_.promote
 field_name: promote
 entity_type: node
-bundle: iteron_activities
+bundle: research_area1_
 label: 'Promoted to front page'
 description: ''
 required: false

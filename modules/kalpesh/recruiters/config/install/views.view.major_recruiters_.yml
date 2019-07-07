@@ -4,7 +4,7 @@ dependencies:
   config:
     - field.storage.node.field_company_image
     - node.type.recruiters
-    - responsive_image.styles.acad_fac_narrow
+    - responsive_image.styles.recruiters_image_style
     - system.menu.main
   module:
     - node
@@ -166,7 +166,7 @@ display:
           click_sort_column: target_id
           type: responsive_image
           settings:
-            responsive_image_style: acad_fac_narrow
+            responsive_image_style: recruiters_image_style
             image_link: content
           group_column: ''
           group_columns: {  }

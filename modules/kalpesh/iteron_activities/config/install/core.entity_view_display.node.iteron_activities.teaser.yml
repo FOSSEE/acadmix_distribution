@@ -8,6 +8,9 @@ dependencies:
   module:
     - text
     - user
+  enforced:
+    module:
+      - iteron_activities
 id: node.iteron_activities.teaser
 targetEntityType: node
 bundle: iteron_activities

@@ -2,11 +2,14 @@ langcode: en
 status: true
 dependencies:
   config:
-    - node.type.achivements
-id: node.achivements.promote
+    - node.type.recruiters
+  enforced:
+    module:
+      - recruiters
+id: node.recruiters.promote
 field_name: promote
 entity_type: node
-bundle: achivements
+bundle: recruiters
 label: 'Promoted to front page'
 description: ''
 required: false

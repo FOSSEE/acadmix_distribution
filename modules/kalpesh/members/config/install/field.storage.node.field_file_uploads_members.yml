@@ -4,6 +4,9 @@ dependencies:
   module:
     - file
     - node
+  enforced:
+    module:
+      - members
 id: node.field_file_uploads_members
 field_name: field_file_uploads_members
 entity_type: node

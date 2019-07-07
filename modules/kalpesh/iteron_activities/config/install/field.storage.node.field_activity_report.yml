@@ -4,6 +4,9 @@ dependencies:
   module:
     - file
     - node
+  enforced:
+    module:
+      - iteron_activities
 id: node.field_activity_report
 field_name: field_activity_report
 entity_type: node

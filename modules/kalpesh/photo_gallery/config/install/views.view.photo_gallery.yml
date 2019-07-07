@@ -3,16 +3,17 @@ status: true
 dependencies:
   config:
     - field.storage.node.field_photo_gallery
-    - image.style.acad_fac_thumbnail_400_300_
     - node.type.photograpy
-    - responsive_image.styles.acad_fac_narrow
+    - responsive_image.styles.photo_gallery
     - system.menu.main
   module:
-    - image
     - node
     - responsive_image
     - user
     - views_bootstrap
+  enforced:
+    module:
+      - photograpy
 id: photo_gallery
 label: 'Photo Gallery'
 module: views
@@ -293,9 +294,9 @@ display:
           empty_zero: false
           hide_alter_empty: true
           click_sort_column: target_id
-          type: image
+          type: responsive_image
           settings:
-            image_style: acad_fac_thumbnail_400_300_
+            responsive_image_style: photo_gallery
             image_link: content
           group_column: ''
           group_columns: {  }

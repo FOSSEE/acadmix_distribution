@@ -4,6 +4,9 @@ dependencies:
   module:
     - node
     - taxonomy
+  enforced:
+    module:
+      - members
 id: node.field_category
 field_name: field_category
 entity_type: node

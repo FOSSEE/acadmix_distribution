@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies: 
+  enforced:
+    module:
+      - photograpy
+name: photo_gallery_image_style
+label: 'Photo Gallery image style'
+effects:
+  d2f1e554-148d-47cf-8a90-be37d02a2f41:
+    uuid: d2f1e554-148d-47cf-8a90-be37d02a2f41
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 400
+      height: 300
+      anchor: center-center

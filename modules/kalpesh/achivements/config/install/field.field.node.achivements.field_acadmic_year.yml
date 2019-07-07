@@ -4,6 +4,9 @@ dependencies:
   config:
     - field.storage.node.field_acadmic_year
     - node.type.achivements
+  enforced:
+    module:
+      - achivements
 id: node.achivements.field_acadmic_year
 field_name: field_acadmic_year
 entity_type: node

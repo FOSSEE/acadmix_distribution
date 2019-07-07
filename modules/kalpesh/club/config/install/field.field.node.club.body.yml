@@ -6,6 +6,9 @@ dependencies:
     - node.type.club
   module:
     - text
+  enforced:
+    module:
+      - club
 id: node.club.body
 field_name: body
 entity_type: node

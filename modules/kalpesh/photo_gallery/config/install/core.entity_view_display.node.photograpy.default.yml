@@ -4,14 +4,17 @@ dependencies:
   config:
     - field.field.node.photograpy.body
     - field.field.node.photograpy.field_photo_gallery
-    - image.style.acad_fac_thumbnail_400_300_
-    - image.style.large
+    - image.style.photo_gallery_image_style
+    - image.style.photo_gallery_large_image_style
     - node.type.photograpy
   module:
     - colorbox
     - ds
     - text
     - user
+  enforced:
+    module:
+      - photograpy
 third_party_settings:
   ds:
     layout:
@@ -49,9 +52,9 @@ content:
     weight: 1
     label: above
     settings:
-      colorbox_node_style: acad_fac_thumbnail_400_300_
+      colorbox_node_style: photo_gallery_image_style
       colorbox_node_style_first: ''
-      colorbox_image_style: large
+      colorbox_image_style: photo_gallery_large_image_style
       colorbox_gallery: post
       colorbox_gallery_custom: ''
       colorbox_caption: auto

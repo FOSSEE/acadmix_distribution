@@ -2,11 +2,14 @@ langcode: en
 status: true
 dependencies:
   config:
-    - node.type.recruiters
-id: node.recruiters.promote
+    - node.type.club
+  enforced:
+    module:
+      - club
+id: node.club.promote
 field_name: promote
 entity_type: node
-bundle: recruiters
+bundle: club
 label: 'Promoted to front page'
 description: ''
 required: false

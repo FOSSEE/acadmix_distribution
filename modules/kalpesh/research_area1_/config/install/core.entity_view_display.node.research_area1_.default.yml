@@ -13,6 +13,9 @@ dependencies:
     - slick
     - text
     - user
+  enforced:
+    module:
+      - research_area1_
 third_party_settings:
   ds:
     layout:

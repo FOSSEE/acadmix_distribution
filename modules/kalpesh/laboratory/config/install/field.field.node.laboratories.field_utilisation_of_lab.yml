@@ -6,6 +6,9 @@ dependencies:
     - node.type.laboratories
   module:
     - text
+  enforced:
+    module:
+      - laboratories
 id: node.laboratories.field_utilisation_of_lab
 field_name: field_utilisation_of_lab
 entity_type: node

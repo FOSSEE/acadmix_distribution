@@ -4,6 +4,9 @@ dependencies:
   config:
     - field.storage.node.field_lab_equipment_cost
     - node.type.laboratories
+  enforced:
+    module:
+      - laboratories
 id: node.laboratories.field_lab_equipment_cost
 field_name: field_lab_equipment_cost
 entity_type: node

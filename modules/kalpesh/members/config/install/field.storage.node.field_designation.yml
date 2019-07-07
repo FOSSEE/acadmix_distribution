@@ -3,6 +3,9 @@ status: true
 dependencies:
   module:
     - node
+  enforced:
+    module:
+      - members
 id: node.field_designation
 field_name: field_designation
 entity_type: node

@@ -6,6 +6,9 @@ dependencies:
     - node.type.photograpy
   module:
     - text
+  enforced:
+    module:
+      - photograpy
 id: node.photograpy.body
 field_name: body
 entity_type: node

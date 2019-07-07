@@ -8,6 +8,9 @@ dependencies:
   module:
     - text
     - user
+  enforced:
+    module:
+      - research_area1_
 id: node.research_area1_.teaser
 targetEntityType: node
 bundle: research_area1_

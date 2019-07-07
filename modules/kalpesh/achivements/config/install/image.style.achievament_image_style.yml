@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies: 
+   enforced:
+    module:
+      - achivements 
+name: achievament_image_style
+label: 'Achievament image style'
+effects:
+  a350664a-521a-4ffd-be52-84328a7e9a62:
+    uuid: a350664a-521a-4ffd-be52-84328a7e9a62
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 400
+      height: 300
+      anchor: center-center

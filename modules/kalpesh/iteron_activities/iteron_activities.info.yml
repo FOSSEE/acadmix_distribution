@@ -13,4 +13,5 @@ dependencies:
   - ds:ds
   - drupal:user
   - drupal:node
+  - views_bootstrap:views_bootstrap
 
