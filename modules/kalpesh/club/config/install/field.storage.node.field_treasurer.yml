@@ -3,6 +3,9 @@ status: true
 dependencies:
   module:
     - node
+  enforced:
+    module:
+      - club
 id: node.field_treasurer
 field_name: field_treasurer
 entity_type: node

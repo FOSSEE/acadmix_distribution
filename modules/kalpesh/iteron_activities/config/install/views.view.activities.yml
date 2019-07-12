@@ -12,6 +12,9 @@ dependencies:
     - text
     - user
     - views_bootstrap
+  enforced:
+    module:
+      - iteron_activities
 id: activities
 label: Activities
 module: views

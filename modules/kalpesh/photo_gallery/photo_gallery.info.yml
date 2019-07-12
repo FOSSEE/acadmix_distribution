@@ -8,10 +8,11 @@ dependencies:
   - drupal:image
   - drupal:path
   - drupal:text
-  - colorbox
+  - colorbox:colorbox
   - ds:ds
-  - drupal:text
   - drupal:user
   - drupal:node
   - drupal:file
+  - drupal:responsive_image
+  - views_bootstrap:views_bootstrap
   

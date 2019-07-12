@@ -17,6 +17,9 @@ dependencies:
     - image
     - path
     - text
+  enforced:
+    module:
+      - iteron_activities
 id: node.iteron_activities.default
 targetEntityType: node
 bundle: iteron_activities

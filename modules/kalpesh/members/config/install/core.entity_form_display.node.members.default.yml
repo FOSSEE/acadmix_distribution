@@ -19,6 +19,9 @@ dependencies:
     - name
     - path
     - text
+  enforced:
+    module:
+      - members
 id: node.members.default
 targetEntityType: node
 bundle: members

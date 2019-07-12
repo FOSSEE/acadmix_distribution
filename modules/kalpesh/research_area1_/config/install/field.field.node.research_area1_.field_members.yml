@@ -5,6 +5,9 @@ dependencies:
     - field.storage.node.field_members
     - node.type.members
     - node.type.research_area1_
+  enforced:
+    module:
+      - research_area1_
 id: node.research_area1_.field_members
 field_name: field_members
 entity_type: node

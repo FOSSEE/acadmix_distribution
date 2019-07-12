@@ -4,6 +4,9 @@ dependencies:
   config:
     - field.storage.node.field_designation
     - node.type.members
+  enforced:
+    module:
+      - members
 id: node.members.field_designation
 field_name: field_designation
 entity_type: node

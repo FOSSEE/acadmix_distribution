@@ -13,6 +13,9 @@ dependencies:
     - image
     - text
     - user
+  enforced:
+    module:
+      - laboratories
 third_party_settings:
   ds:
     layout:

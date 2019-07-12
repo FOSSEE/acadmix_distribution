@@ -6,6 +6,9 @@ dependencies:
     - node.type.research_area1_
   module:
     - image
+  enforced:
+    module:
+      - research_area1_
 id: node.research_area1_.field_image_research_area
 field_name: field_image_research_area
 entity_type: node

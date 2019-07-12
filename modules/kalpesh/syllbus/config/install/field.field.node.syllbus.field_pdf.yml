@@ -6,6 +6,9 @@ dependencies:
     - node.type.syllbus
   module:
     - file
+  enforced:
+    module:
+      - syllbus
 id: node.syllbus.field_pdf
 field_name: field_pdf
 entity_type: node

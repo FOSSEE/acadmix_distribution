@@ -12,6 +12,9 @@ dependencies:
     - node
     - text
     - user
+  enforced:
+    module:
+      - research_area1_
 id: research_area
 label: 'Research Area'
 module: views

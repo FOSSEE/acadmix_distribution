@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.syllbus
+  enforced:
+    module:
+      - syllbus
+id: node.syllbus.title
+field_name: title
+entity_type: node
+bundle: syllbus
+label: Syllbus
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

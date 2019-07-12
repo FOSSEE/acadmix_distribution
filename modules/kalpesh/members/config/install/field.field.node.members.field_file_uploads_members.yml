@@ -4,6 +4,9 @@ dependencies:
   config:
     - field.storage.node.field_file_uploads_members
     - node.type.members
+  enforced:
+    module:
+      - members
   module:
     - file
 id: node.members.field_file_uploads_members

@@ -3,6 +3,9 @@ status: true
 dependencies:
   module:
     - node
+  enforced:
+    module:
+      - members
 id: node.field_email_members
 field_name: field_email_members
 entity_type: node

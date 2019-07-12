@@ -7,6 +7,9 @@ dependencies:
     - paragraphs.paragraphs_type.publication
   module:
     - entity_reference_revisions
+  enforced:
+    module:
+      - research_area1_
 id: node.research_area1_.field_publication_research_area
 field_name: field_publication_research_area
 entity_type: node

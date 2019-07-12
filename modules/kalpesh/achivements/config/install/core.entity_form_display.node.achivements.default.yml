@@ -13,6 +13,9 @@ dependencies:
     - image
     - path
     - text
+  enforced:
+    module:
+      - achivements
 id: node.achivements.default
 targetEntityType: node
 bundle: achivements

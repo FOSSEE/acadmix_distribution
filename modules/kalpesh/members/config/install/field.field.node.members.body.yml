@@ -6,6 +6,9 @@ dependencies:
     - node.type.members
   module:
     - text
+  enforced:
+    module:
+      - members
 id: node.members.body
 field_name: body
 entity_type: node

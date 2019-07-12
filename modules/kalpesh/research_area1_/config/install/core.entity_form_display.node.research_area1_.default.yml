@@ -6,13 +6,16 @@ dependencies:
     - field.field.node.research_area1_.field_image_research_area
     - field.field.node.research_area1_.field_members
     - field.field.node.research_area1_.field_publication_research_area
-    - image.style.acad_fac_max_650x650
+    - image.style.image_h_400_w_600_
     - node.type.research_area1_
   module:
     - image
     - paragraphs
     - path
     - text
+  enforced:
+    module:
+      - research_area1_
 id: node.research_area1_.default
 targetEntityType: node
 bundle: research_area1_
@@ -36,7 +39,7 @@ content:
   field_image_research_area:
     weight: 122
     settings:
-      preview_image_style: acad_fac_max_650x650
+      preview_image_style: image_h_400_w_600_
       progress_indicator: throbber
     third_party_settings: {  }
     type: image_image

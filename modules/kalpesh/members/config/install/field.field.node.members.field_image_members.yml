@@ -6,6 +6,9 @@ dependencies:
     - node.type.members
   module:
     - image
+  enforced:
+    module:
+      - members
 id: node.members.field_image_members
 field_name: field_image_members
 entity_type: node

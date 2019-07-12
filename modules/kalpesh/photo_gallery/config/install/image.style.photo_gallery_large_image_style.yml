@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies: 
+  enforced:
+    module:
+      - photograpy
+name: photo_gallery_large_image_style
+label: 'Photo Gallery large image style'
+effects:
+  b3967226-7f01-4a10-ae16-b5173b0e7b1d:
+    uuid: b3967226-7f01-4a10-ae16-b5173b0e7b1d
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 480
+      height: 480
+      anchor: center-center

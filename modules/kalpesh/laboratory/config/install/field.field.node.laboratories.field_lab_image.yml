@@ -6,6 +6,9 @@ dependencies:
     - node.type.laboratories
   module:
     - image
+  enforced:
+    module:
+      - laboratories
 id: node.laboratories.field_lab_image
 field_name: field_lab_image
 entity_type: node

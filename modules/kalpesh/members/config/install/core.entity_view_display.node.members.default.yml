@@ -20,6 +20,9 @@ dependencies:
     - name
     - text
     - user
+  enforced:
+    module:
+      - members
 third_party_settings:
   ds:
     layout:

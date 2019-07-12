@@ -4,6 +4,9 @@ dependencies:
   config:
     - field.storage.node.field_committee_member
     - node.type.club
+  enforced:
+    module:
+      - club
 id: node.club.field_committee_member
 field_name: field_committee_member
 entity_type: node

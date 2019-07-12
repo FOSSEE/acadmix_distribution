@@ -10,6 +10,9 @@ dependencies:
     - file
     - text
     - user
+  enforced:
+    module:
+      - syllbus
 third_party_settings:
   ds:
     layout:

@@ -10,6 +10,9 @@ dependencies:
     - node
     - user
     - views_bootstrap
+  enforced:
+    module:
+      - syllbus
 id: syllabus
 label: syllabus
 module: views

@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.photo_gallery_image_style
+  enforced:
+    module:
+      - photograpy
+_core:
+  default_config_hash: Umj5KTYrfwM79WjP6IJpQHZGv0GEmu70WZarLM3BfTs
+id: photo_gallery
+label: 'Photo Gallery'
+image_style_mappings:
+  -
+    breakpoint_id: responsive_image.viewport_sizing
+    multiplier: 1x
+    image_mapping_type: sizes
+    image_mapping:
+      sizes: '(min-width: 1290px) 325px, (min-width: 851px) 25vw, (min-width: 560px) 50vw, 100vw'
+      sizes_image_styles:
+        - photo_gallery_image_style
+breakpoint_group: responsive_image
+fallback_image_style: photo_gallery_image_style

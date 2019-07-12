@@ -13,6 +13,9 @@ dependencies:
     - image
     - path
     - text
+  enforced:
+    module:
+      - laboratories
 id: node.laboratories.default
 targetEntityType: node
 bundle: laboratories

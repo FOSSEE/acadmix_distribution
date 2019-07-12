@@ -3,6 +3,9 @@ status: true
 dependencies:
   module:
     - node
+  enforced:
+    module:
+      - iteron_activities
 id: node.field_resource_person
 field_name: field_resource_person
 entity_type: node

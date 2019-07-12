@@ -5,6 +5,9 @@ dependencies:
     - file
     - image
     - node
+  enforced:
+    module:
+      - iteron_activities
 id: node.field_activity_images
 field_name: field_activity_images
 entity_type: node

@@ -4,6 +4,9 @@ dependencies:
   module:
     - name
     - node
+  enforced:
+    module:
+      - members
 id: node.field_full_name_members
 field_name: field_full_name_members
 entity_type: node

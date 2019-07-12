@@ -6,6 +6,9 @@ dependencies:
     - node.type.achivements
   module:
     - file
+  enforced:
+    module:
+      - achivements
 id: node.achivements.field_achivement_files
 field_name: field_achivement_files
 entity_type: node

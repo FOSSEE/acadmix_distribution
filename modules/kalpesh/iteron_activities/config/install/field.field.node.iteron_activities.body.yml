@@ -6,6 +6,9 @@ dependencies:
     - node.type.iteron_activities
   module:
     - text
+  enforced:
+    module:
+      - iteron_activities
 id: node.iteron_activities.body
 field_name: body
 entity_type: node

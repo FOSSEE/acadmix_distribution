@@ -9,6 +9,9 @@ dependencies:
     - file
     - path
     - text
+  enforced:
+    module:
+      - syllbus
 id: node.syllbus.default
 targetEntityType: node
 bundle: syllbus

@@ -12,6 +12,9 @@ dependencies:
   module:
     - path
     - text
+  enforced:
+    module:
+      - club
 id: node.club.default
 targetEntityType: node
 bundle: club

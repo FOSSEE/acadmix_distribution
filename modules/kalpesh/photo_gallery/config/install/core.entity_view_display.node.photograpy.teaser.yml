@@ -9,6 +9,9 @@ dependencies:
   module:
     - text
     - user
+  enforced:
+    module:
+      - photograpy
 id: node.photograpy.teaser
 targetEntityType: node
 bundle: photograpy

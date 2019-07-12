@@ -1,6 +1,9 @@
 langcode: en
 status: true
-dependencies: {  }
+dependencies: 
+  enforced:
+    module:
+      - research_area1_
 id: publication
 label: Publication
 icon_uuid: null

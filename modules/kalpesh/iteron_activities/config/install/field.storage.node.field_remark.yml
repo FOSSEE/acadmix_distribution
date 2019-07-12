@@ -3,6 +3,9 @@ status: true
 dependencies:
   module:
     - node
+  enforced:
+    module:
+      - iteron_activities
 id: node.field_remark
 field_name: field_remark
 entity_type: node
