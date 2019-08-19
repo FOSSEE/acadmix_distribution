@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: image_h_400_w_600_
+label: 'image h:400 * w:600 '
+effects:
+  b6e987e1-7974-4e21-9f6f-df8cb3a8b21f:
+    uuid: b6e987e1-7974-4e21-9f6f-df8cb3a8b21f
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 600
+      height: 400
+      anchor: center-center

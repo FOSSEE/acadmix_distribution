@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: 
+  enforced:
+    module:
+      - research_area1_
+id: publication
+label: Publication
+icon_uuid: null
+description: ''
+behavior_plugins: {  }

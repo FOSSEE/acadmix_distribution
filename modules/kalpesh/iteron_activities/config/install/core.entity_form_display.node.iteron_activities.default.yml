@@ -1,0 +1,139 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.iteron_activities.body
+    - field.field.node.iteron_activities.field_activity_images
+    - field.field.node.iteron_activities.field_activity_report
+    - field.field.node.iteron_activities.field_date
+    - field.field.node.iteron_activities.field_nature_of_activity
+    - field.field.node.iteron_activities.field_remark
+    - field.field.node.iteron_activities.field_resource_person
+    - image.style.thumbnail
+    - node.type.iteron_activities
+  module:
+    - datetime
+    - file
+    - image
+    - path
+    - text
+  enforced:
+    module:
+      - iteron_activities
+id: node.iteron_activities.default
+targetEntityType: node
+bundle: iteron_activities
+mode: default
+content:
+  body:
+    type: text_textarea_with_summary
+    weight: 11
+    region: content
+    settings:
+      rows: 9
+      summary_rows: 3
+      placeholder: ''
+    third_party_settings: {  }
+  created:
+    type: datetime_timestamp
+    weight: 3
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  field_activity_images:
+    weight: 12
+    settings:
+      progress_indicator: throbber
+      preview_image_style: thumbnail
+    third_party_settings: {  }
+    type: image_image
+    region: content
+  field_activity_report:
+    weight: 13
+    settings:
+      progress_indicator: throbber
+    third_party_settings: {  }
+    type: file_generic
+    region: content
+  field_date:
+    weight: 8
+    settings: {  }
+    third_party_settings: {  }
+    type: datetime_default
+    region: content
+  field_nature_of_activity:
+    weight: 9
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_remark:
+    weight: 14
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  field_resource_person:
+    weight: 10
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+    type: string_textfield
+    region: content
+  langcode:
+    type: language_select
+    weight: 1
+    region: content
+    settings:
+      include_locked: true
+    third_party_settings: {  }
+  path:
+    type: path
+    weight: 6
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+  promote:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 4
+    region: content
+    third_party_settings: {  }
+  status:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 7
+    region: content
+    third_party_settings: {  }
+  sticky:
+    type: boolean_checkbox
+    settings:
+      display_label: true
+    weight: 5
+    region: content
+    third_party_settings: {  }
+  title:
+    type: string_textfield
+    weight: 0
+    region: content
+    settings:
+      size: 60
+      placeholder: ''
+    third_party_settings: {  }
+  uid:
+    type: entity_reference_autocomplete
+    weight: 2
+    settings:
+      match_operator: CONTAINS
+      size: 60
+      placeholder: ''
+    region: content
+    third_party_settings: {  }
+hidden: {  }

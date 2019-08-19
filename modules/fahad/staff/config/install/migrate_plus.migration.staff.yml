@@ -1,0 +1,48 @@
+uuid: 636c412b-2d83-448e-be13-107ea9abbaaf
+langcode: en
+status: true
+dependencies: {  }
+id: staff
+class: null
+field_plugin_method: null
+cck_plugin_method: null
+migration_tags: null
+migration_group: null
+label: 'Custom Content migration from CSV Staff'
+source:
+  plugin: csv
+  path: /var/www/html/project/docroot/staff.csv
+  header_row_count: 1
+  keys:
+    - id
+  constants:
+    file_source: /var/www/html/project/docroot/fac_images
+    file_dest: 'public://fac_images/'
+process:
+  type:
+    plugin: default_value
+    default_value: staff
+  source_path:
+    -
+      plugin: skip_on_empty
+      method: process
+      source: phuto
+    -
+      plugin: concat
+      delimiter: /
+      source:
+        - constants/file_source
+        - phuto
+  title: title
+  body: body
+  field_staff_email: email
+  field_designation: designation
+  field_staff_image:
+    plugin: file_import
+    source: '@source_path'
+    destination: constants/file_dest
+destination:
+  plugin: 'entity:node'
+migration_dependencies:
+  required: {  }
+  optional: {  }

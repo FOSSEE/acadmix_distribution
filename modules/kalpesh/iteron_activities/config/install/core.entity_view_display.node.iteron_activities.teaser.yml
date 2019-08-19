@@ -1,0 +1,33 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.iteron_activities.body
+    - node.type.iteron_activities
+  module:
+    - text
+    - user
+  enforced:
+    module:
+      - iteron_activities
+id: node.iteron_activities.teaser
+targetEntityType: node
+bundle: iteron_activities
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  langcode: true

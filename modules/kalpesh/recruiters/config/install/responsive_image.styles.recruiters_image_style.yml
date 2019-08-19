@@ -1,0 +1,19 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - image.style.max_325x325
+    - image.style.recruiters_image_style_325_325
+id: recruiters_image_style
+label: 'Recruiters Image style'
+image_style_mappings:
+  -
+    breakpoint_id: responsive_image.viewport_sizing
+    multiplier: 1x
+    image_mapping_type: sizes
+    image_mapping:
+      sizes: 100vw
+      sizes_image_styles:
+        - recruiters_image_style_325_325
+breakpoint_group: responsive_image
+fallback_image_style: max_325x325

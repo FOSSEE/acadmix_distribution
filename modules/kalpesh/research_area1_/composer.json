@@ -1,0 +1,13 @@
+{
+    "name": "research_area1_",
+    "type": "drupal-module",
+    "description": "My Awesome Module",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/research_area1_",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/research_area1_",
+        "source": "http://cgit.drupalcode.org/research_area1_",
+    },
+}

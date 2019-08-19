@@ -1,0 +1,13 @@
+{
+    "name": "photo_gallery",
+    "type": "drupal-module",
+    "description": "This module is use for stylish photo gallery",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/photo_gallery",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/photo_gallery",
+        "source": "http://cgit.drupalcode.org/photo_gallery",
+    },
+}

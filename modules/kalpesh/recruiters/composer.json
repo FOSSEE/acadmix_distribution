@@ -1,0 +1,13 @@
+{
+    "name": "recruiters",
+    "type": "drupal-module",
+    "description": "This module store details of companies",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/recruiters",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/recruiters",
+        "source": "http://cgit.drupalcode.org/recruiters",
+    },
+}

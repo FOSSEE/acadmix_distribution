@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_president
+    - node.type.club
+  enforced:
+    module:
+      - club
+id: node.club.field_president
+field_name: field_president
+entity_type: node
+bundle: club
+label: President
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

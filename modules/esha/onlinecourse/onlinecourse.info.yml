@@ -1,6 +1,6 @@
 name: 'onlineCourse'
 type: module
-description: 'My Awesome Module'
+description: 'Module for Content Type online_course'
 core: 8.x
 package: 'Custom'
 dependencies:
@@ -10,3 +10,4 @@ dependencies:
   - drupal:user
   - drupal:node
   - drupal:menu_ui
+  - acadmix_faculty:acadmix_faculty

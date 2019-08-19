@@ -1,0 +1,23 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_utilisation_of_lab
+    - node.type.laboratories
+  module:
+    - text
+  enforced:
+    module:
+      - laboratories
+id: node.laboratories.field_utilisation_of_lab
+field_name: field_utilisation_of_lab
+entity_type: node
+bundle: laboratories
+label: 'Utilisation of lab'
+description: 'Semiser wise use of lab in hours/week'
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

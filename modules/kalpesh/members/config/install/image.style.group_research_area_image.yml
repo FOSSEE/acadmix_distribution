@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies: 
+  enforced:
+    module:
+      - members
+name: group_research_area_image
+label: 'Group Research area image'
+effects:
+  366cac20-7b38-410e-b508-129e23608539:
+    uuid: 366cac20-7b38-410e-b508-129e23608539
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 400
+      height: 300
+      anchor: center-center

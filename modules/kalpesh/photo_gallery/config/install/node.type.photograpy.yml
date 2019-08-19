@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+  enforced:
+    module:
+      - photograpy
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Photo Gallery'
+type: photograpy
+description: 'Images of department and department activities'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: true

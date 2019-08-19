@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: 
+  enforced:
+    module:
+      - members
+name: Category
+vid: category
+description: ''
+hierarchy: 0
+weight: 0

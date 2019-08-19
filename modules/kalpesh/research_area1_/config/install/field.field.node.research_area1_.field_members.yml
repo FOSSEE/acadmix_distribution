@@ -1,0 +1,31 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_members
+    - node.type.members
+    - node.type.research_area1_
+  enforced:
+    module:
+      - research_area1_
+id: node.research_area1_.field_members
+field_name: field_members
+entity_type: node
+bundle: research_area1_
+label: Members
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      members: members
+      research_area1_: research_area1_
+    sort:
+      field: _none
+    auto_create: false
+    auto_create_bundle: members
+field_type: entity_reference

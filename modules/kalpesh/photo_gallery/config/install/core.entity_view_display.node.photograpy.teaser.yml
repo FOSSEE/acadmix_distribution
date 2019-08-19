@@ -1,0 +1,35 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.photograpy.body
+    - field.field.node.photograpy.field_photo_gallery
+    - node.type.photograpy
+  module:
+    - text
+    - user
+  enforced:
+    module:
+      - photograpy
+id: node.photograpy.teaser
+targetEntityType: node
+bundle: photograpy
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  field_photo_gallery: true
+  langcode: true

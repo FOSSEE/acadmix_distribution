@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains research_area1_.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function research_area1__help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the research_area1_ module.
+    case 'help.page.research_area1_':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('My Awesome Module') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function research_area1__theme() {
+  return [
+    'research_area1_' => [
+      'render element' => 'children',
+    ],
+  ];
+}

@@ -1,0 +1,13 @@
+{
+    "name": "syllbus",
+    "type": "drupal-module",
+    "description": "This module is store the university syllbus",
+    "keywords": [
+    ],
+    "homepage": "https://www.drupal.org/project/syllbus",
+    "minimum-stability": "dev",
+    "support": {
+        "issues": "https://www.drupal.org/project/issues/syllbus",
+        "source": "http://cgit.drupalcode.org/syllbus",
+    },
+}

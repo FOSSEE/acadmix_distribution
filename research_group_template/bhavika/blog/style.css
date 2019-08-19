@@ -1,0 +1,160 @@
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.row {
+  display: flex;
+  /*flex-wrap: wrap;*/
+  padding: 10px 20px;
+}
+
+
+/* Create two equal columns that sits next to each other */
+.column {
+  /*float: left;*/
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 20px;
+  align-items: right;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+
+.column img {
+  margin-top: 8px;
+ /* vertical-align: middle;*/
+  width: 100%;
+
+}
+.sabi-events-item{
+  margin-top: 5px;
+}
+.img-responsive{
+  margin-top: 10px;
+  display: block;
+  max-width:100%;
+  height: auto;
+}
+.sabi-events-item img
+{
+  margin-top: 10px;
+}
+.sabi-blogs-item img
+{
+  margin-top: 10px;
+  border-radius: 10px;
+background-color: #fff;
+-webkit-box-shadow: 0px 7px 15px 0px rgba(0, 56, 129, 0.09);
+box-shadow: 0px 7px 15px 0px rgba(0, 56, 129, 0.09);
+margin-bottom: 30px;
+padding-bottom: 50px;
+}
+.post_img
+{
+  position: relative;
+}
+article
+{
+  display: block;
+}
+.entry-meta
+{
+padding: 40px 35px 0;
+width: 100%;
+margin-top: 0;
+}
+.entry-meta ul
+{
+  margin: 0;
+padding: 0;
+list-style: none;
+overflow: hidden;
+vertical-align: middle;
+}
+.read-more
+{
+  font-family: "Slabo 27px";
+line-height: 25.032px;
+font-weight: 400;
+font-style: normal;
+color: #183c55;
+font-size: 16px;
+visibility: visible;
+}
+.widget-area
+{
+  font-family: "Slabo 27px";
+line-height: 25.032px;
+font-weight: 400;
+font-style: normal;
+color: #183c55;
+font-size: 16px;
+visibility: visible;
+}
+.blog-sidebar
+{
+  font-family: sans-serif;
+-webkit-text-size-adjust: 100%
+}
+.widget-title
+{ box-sizing: border-box; }
+.recent-post
+{
+  font-family: sans-serif;
+-webkit-text-size-adjust: 100%;
+}
+.media
+{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 14px;
+line-height: 1.42857143;
+color: #333;
+}
+.media-left
+{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 14px;
+line-height: 1.42857143;
+color: #333;
+}
+
+.media-body
+{
+  font-size: 14px;
+}
+.media-heading
+{
+  font-family: "Slabo 27px";
+line-height: 25.032px;
+font-weight: 400;
+font-style: normal;
+color: #183c55;
+font-size: 16px;
+visibility: visible;
+}
+.post-text
+{
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 14px;
+line-height: 1.42857143;
+color: #333;
+}
+/* Responsive layout - makes a two column-layout instead of four columns */
+/*@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}*/
+
+ /*Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+/*@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}*/

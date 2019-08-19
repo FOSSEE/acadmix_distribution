@@ -1,0 +1,24 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.photograpy
+  module:
+    - text
+  enforced:
+    module:
+      - photograpy
+id: node.photograpy.body
+field_name: body
+entity_type: node
+bundle: photograpy
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary

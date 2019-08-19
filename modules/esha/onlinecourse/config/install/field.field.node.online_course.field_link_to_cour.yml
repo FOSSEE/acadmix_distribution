@@ -6,6 +6,9 @@ dependencies:
     - node.type.online_course
   module:
     - link
+  enforced:
+    module:
+      online_course
 id: node.online_course.field_link_to_cour
 field_name: field_link_to_cour
 entity_type: node

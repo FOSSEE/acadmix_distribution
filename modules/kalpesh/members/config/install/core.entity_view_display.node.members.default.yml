@@ -1,0 +1,371 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.members.body
+    - field.field.node.members.field_category
+    - field.field.node.members.field_designation
+    - field.field.node.members.field_email_members
+    - field.field.node.members.field_file_uploads_members
+    - field.field.node.members.field_full_name_members
+    - field.field.node.members.field_image_members
+    - field.field.node.members.field_location_members
+    - field.field.node.members.field_phone_no_members
+    - image.style.group_research_area_image
+    - node.type.members
+  module:
+    - ds
+    - file
+    - image
+    - name
+    - text
+    - user
+  enforced:
+    module:
+      - members
+third_party_settings:
+  ds:
+    layout:
+      id: ds_1col
+      library: null
+      disable_css: false
+      entity_classes: all_classes
+      settings:
+        wrappers:
+          ds_content: div
+        outer_wrapper: div
+        attributes: ''
+        link_attribute: ''
+        link_custom: ''
+        classes:
+          layout_class: {  }
+          ds_content: {  }
+    regions:
+      ds_content:
+        - links
+        - field_image_members
+        - body
+        - field_full_name_members
+        - field_email_members
+        - field_category
+        - field_designation
+        - field_location_members
+        - field_phone_no_members
+        - field_file_uploads_members
+id: node.members.default
+targetEntityType: node
+bundle: members
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 2
+    settings: {  }
+    third_party_settings: {  }
+    region: ds_content
+  field_category:
+    weight: 5
+    label: inline
+    settings:
+      link: true
+    third_party_settings:
+      ds:
+        ft:
+          id: expert
+          settings:
+            lb: ''
+            prefix: ''
+            lbw: true
+            lbw-el: 'div '
+            lbw-cl: 'col-sm-2 fw-bold mb-10 mt-10'
+            lbw-at: ''
+            ow: true
+            ow-el: div
+            ow-cl: row
+            ow-at: ''
+            fis-el: ''
+            fis-cl: ''
+            fis-at: ''
+            fi: true
+            fi-el: div
+            fi-cl: 'col-sm-10 mb-10 mt-10'
+            fi-at: ''
+            suffix: ''
+            lb-col: false
+            ow-def-at: false
+            ow-def-cl: false
+            fis: false
+            fis-def-at: false
+            fi-def-at: false
+    type: entity_reference_label
+    region: ds_content
+  field_designation:
+    weight: 6
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings:
+      ds:
+        ft:
+          id: expert
+          settings:
+            lb: ''
+            prefix: ''
+            lbw: true
+            lbw-el: div
+            lbw-cl: 'col-sm-2 fw-bold mb-10 mt-10'
+            lbw-at: ''
+            ow: true
+            ow-el: div
+            ow-cl: row
+            ow-at: ''
+            fis-el: ''
+            fis-cl: ''
+            fis-at: ''
+            fi: true
+            fi-el: div
+            fi-cl: 'col-sm-10 mb-10 mt-10'
+            fi-at: ''
+            suffix: ''
+            lb-col: false
+            ow-def-at: false
+            ow-def-cl: false
+            fis: false
+            fis-def-at: false
+            fi-def-at: false
+    type: string
+    region: ds_content
+  field_email_members:
+    weight: 4
+    label: inline
+    settings: {  }
+    third_party_settings:
+      ds:
+        ds_limit: ''
+        ft:
+          id: expert
+          settings:
+            lb: ''
+            prefix: ''
+            lbw: true
+            lbw-el: 'div '
+            lbw-cl: 'col-sm-2 fw-bold mb-10 mt-10'
+            lbw-at: ''
+            ow: true
+            ow-el: div
+            ow-cl: row
+            ow-at: ''
+            fis-el: ''
+            fis-cl: ''
+            fis-at: ''
+            fi: true
+            fi-el: div
+            fi-cl: 'col-sm-10 mb-10 mt-10'
+            fi-at: ''
+            suffix: ''
+            lb-col: false
+            ow-def-at: false
+            ow-def-cl: false
+            fis: false
+            fis-def-at: false
+            fi-def-at: false
+    type: basic_string
+    region: ds_content
+  field_file_uploads_members:
+    weight: 9
+    label: inline
+    settings:
+      use_description_as_link_text: true
+    third_party_settings:
+      ds:
+        ft:
+          id: expert
+          settings:
+            lb: ''
+            prefix: ''
+            lbw: true
+            lbw-el: div
+            lbw-cl: 'col-sm-2 mb-10 mt-10'
+            lbw-at: ''
+            ow: true
+            ow-el: div
+            ow-cl: row
+            ow-at: ''
+            fis-el: ''
+            fis-cl: ''
+            fis-at: ''
+            fi: true
+            fi-el: div
+            fi-cl: 'col-sm-10 mb-10 mt-10'
+            fi-at: ''
+            suffix: ''
+            lb-col: false
+            ow-def-at: false
+            ow-def-cl: false
+            fis: false
+            fis-def-at: false
+            fi-def-at: false
+    type: file_default
+    region: ds_content
+  field_full_name_members:
+    weight: 3
+    label: inline
+    settings:
+      format: default
+      output: default
+      multiple: default
+      multiple_delimiter: ', '
+      multiple_and: text
+      multiple_delimiter_precedes_last: never
+      multiple_el_al_min: '3'
+      multiple_el_al_first: '1'
+      markup: false
+    third_party_settings:
+      ds:
+        ft:
+          id: expert
+          settings:
+            lb: ''
+            prefix: ''
+            lbw: true
+            lbw-el: 'div '
+            lbw-cl: 'col-sm-2 fw-bold mt-10 mb-10'
+            lbw-at: ''
+            ow: true
+            ow-el: div
+            ow-cl: row
+            ow-at: ''
+            fis: true
+            fis-el: ''
+            fis-cl: ''
+            fis-at: ''
+            fi: true
+            fi-el: div
+            fi-cl: 'col-sm-10 mb-10 mt-10'
+            fi-at: ''
+            suffix: ''
+            lb-col: false
+            ow-def-at: false
+            ow-def-cl: false
+            fis-def-at: false
+            fi-def-at: false
+    type: name_default
+    region: ds_content
+  field_image_members:
+    weight: 1
+    label: hidden
+    settings:
+      image_style: group_research_area_image
+      image_link: ''
+    third_party_settings:
+      ds:
+        ft:
+          id: expert
+          settings:
+            lb: ''
+            prefix: ''
+            lbw-el: ''
+            lbw-cl: ''
+            lbw-at: ''
+            ow-el: ''
+            ow-cl: ''
+            ow-at: ''
+            fis-el: ''
+            fis-cl: ''
+            fis-at: ''
+            fi-el: ''
+            fi-cl: ''
+            fi-at: ''
+            suffix: ''
+            lbw: false
+            lb-col: false
+            ow: false
+            ow-def-at: false
+            ow-def-cl: false
+            fis: false
+            fis-def-at: false
+            fi: false
+            fi-def-at: false
+    type: image
+    region: ds_content
+  field_location_members:
+    weight: 7
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings:
+      ds:
+        ft:
+          id: expert
+          settings:
+            lb: ''
+            prefix: ''
+            lbw: true
+            lbw-el: div
+            lbw-cl: 'col-sm-2 fw-bold mb-10 mt-10'
+            lbw-at: ''
+            ow: true
+            ow-el: div
+            ow-cl: row
+            ow-at: ''
+            fis-el: ''
+            fis-cl: ''
+            fis-at: ''
+            fi: true
+            fi-el: div
+            fi-cl: 'col-sm-10 mb-10 mt-10'
+            fi-at: ''
+            suffix: ''
+            lb-col: false
+            ow-def-at: false
+            ow-def-cl: false
+            fis: false
+            fis-def-at: false
+            fi-def-at: false
+    type: string
+    region: ds_content
+  field_phone_no_members:
+    weight: 8
+    label: inline
+    settings:
+      link_to_entity: false
+    third_party_settings:
+      ds:
+        ds_limit: ''
+        ft:
+          id: expert
+          settings:
+            lb: ''
+            prefix: ''
+            lbw: true
+            lbw-el: div
+            lbw-cl: 'col-sm-2 fw-bold mb-10 mt-10'
+            lbw-at: ''
+            ow: true
+            ow-el: div
+            ow-cl: row
+            ow-at: ''
+            fis-el: ''
+            fis-cl: ''
+            fis-at: ''
+            fi: true
+            fi-el: div
+            fi-cl: 'col-sm-10 mb-10 mt-10'
+            fi-at: ''
+            suffix: ''
+            lb-col: false
+            ow-def-at: false
+            ow-def-cl: false
+            fis: false
+            fis-def-at: false
+            fi-def-at: false
+    type: string
+    region: ds_content
+  links:
+    weight: 0
+    region: ds_content
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

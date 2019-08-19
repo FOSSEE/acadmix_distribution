@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_remark
+    - node.type.iteron_activities
+  enforced:
+    module:
+      - iteron_activities
+id: node.iteron_activities.field_remark
+field_name: field_remark
+entity_type: node
+bundle: iteron_activities
+label: Remark
+description: 'no of participant'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

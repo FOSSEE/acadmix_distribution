@@ -1,0 +1,21 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_phone_no_members
+    - node.type.members
+  enforced:
+    module:
+      - members
+id: node.members.field_phone_no_members
+field_name: field_phone_no_members
+entity_type: node
+bundle: members
+label: 'Phone No  '
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

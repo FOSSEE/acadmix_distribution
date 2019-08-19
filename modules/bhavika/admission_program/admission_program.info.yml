@@ -13,4 +13,5 @@ dependencies:
   - drupal:path
   - ds:ds
   - pathauto:pathauto
+  - department:department
 

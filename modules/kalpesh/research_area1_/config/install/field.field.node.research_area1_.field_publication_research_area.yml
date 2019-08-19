@@ -1,0 +1,33 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_publication_research_area
+    - node.type.research_area1_
+    - paragraphs.paragraphs_type.publication
+  module:
+    - entity_reference_revisions
+  enforced:
+    module:
+      - research_area1_
+id: node.research_area1_.field_publication_research_area
+field_name: field_publication_research_area
+entity_type: node
+bundle: research_area1_
+label: Publication
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    negate: 0
+    target_bundles:
+      publication: publication
+    target_bundles_drag_drop:
+      publication:
+        enabled: true
+        weight: 2
+field_type: entity_reference_revisions
